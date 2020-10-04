@@ -1,0 +1,1 @@
+<!ENTITY viewLog.title "Filter-Log"><!ENTITY viewLogInfo.text "Das Filter-Log ist eine Datei, die dokumentiert, welche Filter ausgeführt wurden. Verwenden Sie das Kästchen unten, um die Aufzeichnung zu aktivieren."><!ENTITY clearLog.label "Log leeren"><!ENTITY clearLog.accesskey "C"><!ENTITY enableLog.label "Filter-Log aktivieren"><!ENTITY enableLog.accesskey "E">

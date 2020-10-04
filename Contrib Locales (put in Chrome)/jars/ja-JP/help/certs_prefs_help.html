@@ -1,0 +1,107 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="chrome://help/locale/content_style.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+<title>プライバシーとセキュリティ設定 − 証明書</title>
+<!--
+*************************************** 覚え書き ************************************
+
+原文
+題名：Privacy &amp; Security Preferences - Certificates
+URL ：http://lxr.mozilla.org/mozilla/source/extensions/help/resources/locale/en-US/certs_help.html
+日付：8/31/2001
+
+和訳履歴
+開始：2001年11月04日 山口草稿
+更新：2002年03月02日 山口
+更新：2002年03月03日 山口もじら組リンク追加
+修正：2002/04/02 mal (mal@mozilla.gr.jp) for 0.9.9 JLP
+更新：2002年04月13日 山口 Rev.:1.10
+更新：2002年05月21日 山口 Rev.:1.13
+更新：2002年06月14日 山口 Rev.:1.15
+更新：2002年07月04日 山口 Rev.:1.16
+更新：2002年02月07日 松葉 Rev.:1.16
+                     title 行を meta 行の後へ移動
+
+*************************************** 覚え書き ************************************
+-->
+
+</head>
+
+<body bgcolor="white">
+
+<a NAME="using_certs_settings"></a>
+<a NAME="certificates:settingsIDX"></a>
+<a NAME="settings:certificateIDX"></a>
+<div class="boilerplate">このドキュメントは、あなたに情報提示する目的のためにのみ、Netscape から提供されたものです。この文書は、インターネット上での、あなたの個人情報のプライバシーやセキュリティを保護する手段を講じるのに役立つかもしれません。しかし、このドキュメントは、全てのオンラインプライバシーおよびセキュリティ問題について扱っているわけではありません。またこのドキュメントは、インターネット上で十分なプライバシーおよびセキュリティ保護のために何が必要なのかを、Netscape が奨励するものでもありません。</div>
+
+<hr>
+<h1>証明書の設定</h1>
+
+<p>このセクションは、証明書設定の変更の仕方や証明書マネージャ、デバイスマネージャ、その他証明書に関連したダイアログボックスの使い方を解説します。</p>
+
+<p>証明書に関連した様々な項目についての手順ごとの解説は、<A HREF="#using_certs_first">証明書を利用する</A>をご覧ください。</p>
+
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" Width=324>
+<tr>
+<td class="inthissection">
+<p>このセクションでは：</p>
+<p><a href="#certs_prefs_help_first">証明書設定</a></p>
+<p><a href="certs_help.html">証明書マネージャ</a></p>
+<p><a href="certs_help.html#Security_Devices">デバイスマネージャ</a></p>
+<p><a href="cert_dialog_help.html">証明書の情報と決定</a></p>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+
+<hr>
+<a NAME="certs_prefs_help_first"></a>
+<a NAME="preferences:certificatesIDX"></a>
+<a NAME="certificates:preferencesIDX"></a>
+<h1>プライバシーとセキュリティ設定 − 証明書</h1>
+
+<p>このセクションでは、［証明書］設定パネルについて説明します。このパネルを表示するには、次のステップに従います：
+
+<ol>
+   <li>［編集］メニューを開き、［設定］を選択します。
+   <li>［プライバシーとセキュリティ］カテゴリで、［証明書］をクリックします（サブカテゴリが表示されていない場合は、［プライバシーとセキュリティ］をダブルクリックしてリストを開いてください)。
+</ol>
+
+<p>&nbsp;</p>
+<a NAME="Client_Certificate_Selection"></a>
+<a NAME="certificates:selecting_for_client_authenticationIDX"></a>
+<h3>クライアント証明書の選択</h3>
+
+<p>Web サイトによっては、証明書を用いてあなたの身元を証明しなればなりません。ここで選択されたオプションは、Navigator がファイルの中から提出する証明書をどのように特定するかを決定します：</p>
+
+<ul>
+	<LI><b>自動的に選択する：</b> Navigator があなたに照会することなく証明書を選択するようにしたい場合は、このオプションをクリックしてください。このオプションが、標準設定です。</li>
+	<LI><b>毎回尋ねる：</b> Web サイトが証明書を要求したときに、Navigator がどの証明書を選択するかあなたに尋ねさせたい場合は、このオプションをクリックしてください。</li>
+</ul>
+
+<p>&nbsp;</p>
+<a NAME="Manage_Certificates"></a>
+<h3>証明書の管理</h3>
+
+<p>証明書は、身分証明書のデジタル版です。他の人がユーザを識別したり、ユーザが他の人、Web サイト、組織を識別するために使われます。
+
+<p>ファイルに保存された証明書を検証および設定するには、［証明書の管理］をクリックします。
+
+<p>&nbsp;</p>
+<a NAME="Manage_Security_Devices"></a>
+<h3>セキュリティ デバイスの管理</h3>
+
+<p>セキュリティデバイスとは、証明書とキーを保存しているハードウェアまたはソフトウェアデバイスのことです。例えば、スマートカードはその一例です。あなたのブラウザには独自の標準セキュリティデバイスが備わっていますが、スマートカードのようなセキュリティデバイスを追加して同時に使用することもできます。
+
+<p>セキュリティデバイスを検証および設定するには、［セキュリティデバイスの管理］をクリックします。
+
+<hr>
+<p><i>2002年 6月18日</i></p>
+<div class="documentinfo">
+<p>Copyright &copy; 1994-2002 Netscape Communications Corporation.</p>
+<p>Translated for Mozilla by mozilla-gumi &lt;http://mozilla.gr.jp&gt; participants.</p>
+</div>
+</body>
+</html>

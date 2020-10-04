@@ -1,0 +1,1 @@
+<!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder --><!ENTITY ViewPicker.label "概観:"><!ENTITY ViewPicker.accesskey "i"><!ENTITY ViewPickerPeople.label "知人"><!ENTITY ViewPickerCustomView.label "カスタマイズ..."><!ENTITY ViewPickerAll.label "すべて"><!ENTITY ViewPickerUnread.label "未読">

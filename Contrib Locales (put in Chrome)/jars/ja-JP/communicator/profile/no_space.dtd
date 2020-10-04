@@ -1,0 +1,1 @@
+<!-- extracted from no_space.xul --><!ENTITY buttonCancel.label "キャンセル"><!ENTITY buttonRetry.label "リトライ"><!ENTITY buttonCreateNew.label "新規プロファイルを作成"><!ENTITY noSpace.label "移行に必要な領域不足"><!ENTITY errorText1.label "プロファイルの移行に必要なディスクの空きが不足しています。"><!ENTITY errorText2.label "ディスクの空きを確保してリトライするか、新規にプロファイルを作成するか、キャンセルしてください。">

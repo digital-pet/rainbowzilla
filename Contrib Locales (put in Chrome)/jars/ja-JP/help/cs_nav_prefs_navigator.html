@@ -1,0 +1,392 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+<title>Mozilla Navigator 設定ヘルプ</title>
+
+<link rel="stylesheet" href="chrome://help/locale/content_style.css" type="text/css">
+
+<!--
+*************************************** 覚え書き ************************************
+
+原文
+題名：Mozilla Navigator Preferences Help
+URL ：http://lxr.mozilla.org/mozilla/source/extensions/help/resources/locale/en-US/cs_nav_prefs_navigator.html
+日付：2002-02-08
+
+和訳履歴
+和訳：2002/03/03 山口（syamagu@mozilla.gr.jp）2002-02-07
+和訳：2002/04/13 山口（syamagu@mozilla.gr.jp）2002-03-08 Rev.:1.6
+更新：2003/01/26 松葉（matsuba@dream.com）    2003-01-26 Rev.:1.7
+                         下さい を ください に統一
+                         1. 2. .. をタグで行うように修正
+                         - をタグにしているのを他との兼ね合いで − に修正
+                         その他用語／誤字／URL の誤りを修正
+更新：2003/02/05 松葉（matsuba@dream.com）    2003-01-29 Rev.:1.8
+
+*************************************** 覚え書き ************************************
+-->
+</head>
+
+<body bgcolor="white">
+<a NAME="appearance_pref"></a>
+<a name="Navigator:preferencesIDX"></a>
+<a name="preferences:NavigatorIDX"></a>
+<h1>Navigator 設定</h1>
+
+<p>このセクションでは、Navigator 設定パネルの使い方を解説します。このパネルが表示されていない場合は、次の手順に従ってください：</p>
+
+<ol>
+<li>［編集］を開いて［設定］を選択します。</li>
+<li>［Navigator］を選択します。</li>
+</ol>
+
+<table summary="list of headings" CELLSPACING=2 CELLPADDING=4 WIDTH="324" BGCOLOR="#CCCCCC" >
+<tr>
+<td class="inthissection">
+<p>このセクションでは：</p>
+      <p><a href="#Navigator">Navigator</a>
+      <p><a href="#History">履歴</a> 
+      <p><a href="#Languages">言語</a>
+      <p><a href="#Helper">ヘルパーアプリケーション</a>
+      <p><a href="#Smart">Smart Browsing</a>
+      <p><a href="#Internet">インターネット検索</a>
+      <p><a href="#Tabbed">タブブラウジング</a>
+      <p><a href="#downloads">ダウンロード</a>
+    </td>
+</tr>
+</table>
+
+<p>&nbsp;</p>
+<a name="preferences:NavigatorIDX"></a>
+<a name="preferences:default_browserIDX"></a>
+<a name="default_browser_preferencesIDX"></a>
+<a name="default_browser_preferencesSDX"></a>
+<a name="Groupmark_as_home_pageSDX"></a>
+<a name="Home_Page_GroupSDX"></a>
+<a name="Home_Page_GroupIDX"></a>
+<a name="home_pageIDX"></a>
+<a name="home_pageSDX"></a>
+<a name="buttonsSDX"></a>
+<a NAME="Navigator"></a>
+<h2>Navigator 設定 − Navigator</h2>
+
+<p>
+<p>このセクションでは、Navigator 設定パネルの使い方を解説します。パネルが表示されていない場合は、次の手順に従ってください：</p>
+
+<ol>
+<li>［編集］を開いて［設定］を選択します。</li>
+<li>［Navigator］カテゴリーを選択します。</li>
+</ol>
+
+<p><br></p>
+<p>Navigator 設定パネルでは、ブラウザを次の三つの視点から設定することができます。</p>
+
+<ul>
+  <li><b>Navigator の起動時</b>： 次のボタンの一つを選択して、Mozilla が起動した時に表示するコンポーネントを決定します：
+<ul>
+<li>
+    <b>空白ページ</b>： Web ページを自動的に開くことなくNavigator が起動します。<br>
+    </li>
+<li><b>ホームページ</b>： Navigator が起動するとき、（下で指定した）ホームページを必ず開くようにします。<br>
+</li>
+<li><b>最後に訪問したページ</b>： 前回 Mozilla で訪れたページを開いて Navigator を起動します。</li>
+</ul>
+
+<li><b> 標準のブラウザ：</b>Mozilla を標準のブラウザとして指定できます。または>、標準のブラウザであることが表示されます。</li>
+<ul>
+<li><b>標準のブラウザに設定： </b>淡色表示になっていなければ、これをクリックすると、Mozilla を標準のブラウザとして使用できます。</li>
+</ul>
+<li><b>ホームページ</b>： あなたのホームページとしたい Web ページを入力するか、次のいずれかの操作を行います。：</li>
+<ul>
+<li><b>現在のページを使用する</b>： Navigator に現在表示されている Web ページをホームページとして使用する場合に選択してください。</li>
+<li><b>現在のグループ</b>： 2 つ以上の Navigator タブを開いている場合は、このオプションをボタンすると、それらのタブをホーム ページ グループ（ホーム ページとして開くタブのグループ）として設定できます。 このボタンをクリックした後、場所フィールドに &quot; ホーム ページ グループが設定されました &quot; というメッセージが表示されます。<br>
+&nbsp;<br>
+<b>注意</b>： ［現在のグループ］をクリックした後にこのフィールドを編集すると、ホーム ページ グループの設定が失われます。<br>
+&nbsp;<br>
+</li>
+<li><b>ファイルを選択</b>： このボタンをクリックすると、ホーム ページとして読み込むファイルをディスク上で検索できます。</li>
+</ul>
+
+<li><b>ツールバーに表示するボタンを選択してください</b>： ツールバーに表示するボタンに対応するチェックボックスをオンにします。<br>［移動］、［検索］、［印刷］ボタンは、Navigator ウィンドウの右上のナビゲーションツールバー内に表示されます。 他のボタンはすべて、パーソナルツールバー内に表示されます。 ユーザ独自のブックマークをパーソナルツールバーに追加する方法については、「<a href="customize_help.html#cust_personal">パーソナルツールバー</a>」をご覧ください。<br>
+</ul>
+
+<p>&nbsp;</p><hr>
+<a name="preferences:historyIDX"></a>
+<a NAME="History"></a> 
+<h2>Navigator 設定 − 履歴</h2>
+<p> 
+<p>このセクションでは、履歴設定パネルの使い方を解説します。パネルが表示されていない場合は、次の手順に従ってください：
+</p>
+
+<ol>
+<li>［編集］を開いて［設定］を選択します。</li>
+<li>［Navigator］カテゴリーの中の、［履歴］をクリックします。 （サブカテゴリーが表示されていない場合は、カテゴリーをダブルクリックしてリストを開きます。）</li>
+</ol>
+
+<p></p>
+
+<p>履歴設定パネルでは、Navigator で三種類の履歴設定を行うことができます。</p>
+<ul>
+  
+<li><b>履歴をブラウズ</b>：</li>
+
+<ul>
+  <li><b>訪問したページを次の日数だけ記憶する： ［　］日</b>： 以前に訪問した Web ページを Mozilla が記録する日数を入力してください。例えば、ここで 10日に設定すると、10日分の履歴が保存されます。
+</li>
+</ul>
+</li>
+<ul>
+<li><b>履歴をクリア</b>： このボタンをクリックして、訪問したサイトのリストを削除してください。</li>
+</ul>
+<li><b>ロケーションバーの履歴</b>：
+<ul>
+<li><b>ロケーションバーのクリア</b>： このボタンをクリックして、ロケーションバーのサイトリストを削除してください。</li>
+</ul>
+  </li>
+<li><b>セッション履歴</b>：</li>
+<ul>
+<li><b>セッション履歴に残すページ数</b>： ［戻る］や［進む］ボタンを使って Mozilla に記録される Web ページのページ数を入力してください。</li>
+</ul>
+
+</li>
+</ul>
+<p>Mozilla での履歴についての詳細情報は、<a href="nav_help.html#nav_retrace">履歴をたどる</a>をご覧ください。<br>
+  </p>
+
+<p>&nbsp;</p><hr>
+<a name="languagesSDX"></a>
+<a name="character_codingSDX"></a>
+<a name="preferences:languagesIDX"></a>
+<a name="Languages"></a> 
+<h2>Navigator 設定 − 言語</h2>
+
+<p>このセクションでは、言語設定パネルの使い方を解説します。パネルが表示されていない場合は、次の手順に従ってください：
+</p>
+
+<ol>
+<li>［編集］を開いて［設定］を選択します。</li>
+<li>［Navigator］カテゴリーの中の、［言語］をクリックします。 （サブカテゴリーが表示されていない場合は、カテゴリーをダブルクリックしてリストを開きます。）</li>
+</ol>
+
+<p></p>
+
+<p>言語設定パネルでは、Web ページを表示するための言語や文字コードを選択することができます：</p>
+
+<ul>
+  
+<li><b>Web ページの言語</b>：
+
+<ul>
+<li><b>上に移動／下に移動</b>： どちらかのボタンをクリックして、選択した言語を上下に移動してください。これにより、リスト内の言語の優先順位を設定することができます。</li>
+<li><b>追加</b>： これをクリックして、Web ページを表示するための言語を追加してください。</li>
+<li><b>削除</b>： これをクリックして、選択した言語を削除してください。</li>
+</ul>
+</li>
+<li><b>文字コード</b>：</li>
+<ul>
+<li><b>ディフォルト文字コード</b>： ドロップダウンリストから、Web ページを表示する際に利用したい文字コードを選択してください。</li>
+</ul>
+
+</li>
+</ul>
+<p>&nbsp;</p><hr>
+<a name="opening_filesSDX"></a>
+<a name="downloadingSDX"></a>
+<a name="downloadSDX"></a>
+<a name="preferences:helper_applicationsIDX"></a>
+<a name="Helper"></a>
+
+<h2>Navigator 設定 − ヘルパーアプリケーション</h2>
+
+<p>このセクションでは、ヘルパーアプリケーション設定パネルの使い方を解説します。パネルが表示されていない場合は、次の手順に従ってください：
+</p>
+
+<ol>
+<li>［編集］を開いて［設定］を選択します。</li>
+<li>［Navigator］カテゴリーの中の、［ヘルパーアプリケーション］をクリックします。 （サブカテゴリーが表示されていない場合は、カテゴリーをダブルクリックしてリストを開きます。）</li>
+</ol>
+
+<p></p>
+
+<p>ヘルパーアプリケーション設定パネルでは、Mozilla 内で他のアプリケーションで開くファイルタイプの設定の仕方を解説します：</p>
+<ul>
+  
+<li><b>ファイル毎に開くアプリケーションを指定する</b>：</li>
+
+<ul>
+<li><b>ファイルタイプ</b>： Mozilla が利用するファイルタイプを表示します。そのうちの一つを選択すると以下の情報が表示されます：</li>
+<ul>
+<li><b>拡張子</b>： 選択されたファイルタイプのファイル拡張子が表示されます。</li>
+<li><b>MIME タイプ</b>： 選択されたファイルタイプの MIME タイプが表示されます。</li>
+<li><b>開くプログラム</b>： 選択されたファイルタイプのファイルを開くためのプログラムが表示されます。</li>
+</ul>
+
+</li>
+<li><b>新しいタイプ</b>： これをクリックして新しいファイルタイプを追加してください。タイプの説明、ファイル拡張子、MIME タイプそしてプログラムを選択するが入力してください。</li>
+<li><b>編集</b>： これをクリックして、選択されたファイルタイプのファイルを扱う際の情報を変更してください。</li>
+<li><b>削除</b>： これをクリックして、選択されたファイルタイプを削除してください。</li>
+</ul>
+<li><b>Plug-in 検索サービス</b>: 新しいプラグイン サービスが必要な場合に必ず PFS（Plugin Finder Service）を使用するには、このオプションを選択します。選択しなかった場合は、プラグインを必要とする Web ページでプラグインの場所が指定されていない場合にのみ、PFS が使用されます。</li>
+<li><b>ファイルを開く場合</b>：</li>
+<ul>
+<li><b>リセット</b>： これをクリックすると、ダウンロードダイアログボックスの &quot;このタイプのファイルを開く前に常に尋ねる&quot; でチェックボックスを解除することで設定される、あらゆるファイル処理設定を取り消すことができます。</li>
+</ul>
+</li>
+</ul>
+<p>Mozilla で異なるファイルタイプをどう扱うかについての詳細情報は、<a href="nav_help.html#nav_helperapps">さまざまなファイルタイプを管理する</a>をご覧ください。</p>
+<p>&nbsp;</p><hr>
+
+
+<a name="internet_keywordsSDX"></a>
+<a name="keywordsSDX"></a>
+<a name="whats_relatedSDX"></a>
+<a name="autocompleteSDX"></a>
+<a name="preferences:smart_browsingIDX"></a> 
+<a name="Smart"></a>
+<h2>Navigator 設定 − Smart Browsing</h2>
+
+<p>このセクションでは、Smart Browsing 設定パネルの使い方を解説します。パネルが表示されていない場合は、次の手順に従ってください：
+</p>
+
+<ol>
+<li>［編集］を開いて［設定］を選択します。</li>
+<li>［Navigator］カテゴリーの中の、［Smart Browsing］をクリックします。 （サブカテゴリーが表示されていない場合は、カテゴリーをダブルクリックしてリストを開きます。）</li>
+</ol>
+
+
+<p></p>
+
+<p>Smart Browsing 設定パネルでは、Internet Keywords そしてロケーションバー自動補完を利用して、より快適な Web ブラウズができるようにします。</p>
+
+<ul>
+<li><b>Internet Keywords</b>：</li>
+<ul>
+<li><b>Internet Keywords を有効にする</b>： これを選択すると、株式情報、検索やその他の情報にロケーションバーから素早くアクセスすることができるようになります。</li>
+<li><b>詳細</b>： これをクリックすると、Internet Keywords を利用する際の詳細情報が得られます。</li>
+
+</ul>
+
+</li>
+<li><b>ロケーションバー自動補完</b>：</li>
+<ul>
+<li><b>ロケーションバーに入力した文字列を自動的に補完します</b>： これを選択すると、以前にロケーションバーに入力した文字列を自動的に補完します。
+</li>
+<li><b>詳細</b>： これを選択して、以下のオプションを一つまたは複数選択してください：</li>
+<ul>
+<li><b>入力に最も一致する単語を自動補完</b>： ロケーションバーに入力する際に、Mozilla は過去に訪れた Web サイトの中で最も近いものを利用して Web アドレスを自動的に補完します。</li>
+<li><b>一致する単語のリストを表示</b>： ロケーションバーに入力する際に、Mozilla は、過去に訪れた Web アドレスで一致するものをドロップダウンリストに表示します。</li>
+<li><b>インターネット検索エンジンを表示</b>： ドロップダウンリストを表示して、あなたが入力した言葉を標準の検索エンジンを使って検索できるようにします。</li>
+<li>
+<div align="center"><b>過去に入力した Web サイトにのみ一致するリストを表示する</b>： ロケーションバーに入力したことがある Web サイトのみを表示します。Web ページ上のリンクをクリックして開いたような、他の方法で開いたサイトは表示されません。</div>
+</li>
+</ul>
+</ul>
+</ul>
+<p>&nbsp;</p><hr>
+<a name="search_engineSDX"></a>
+<a name="searchSDX"></a>
+<a name="preferences:internet_searchIDX"></a> 
+<a name="Internet"></a>
+<h2>Navigator 設定 − インターネット検索</h2>
+<p> 
+<p>このセクションでは、インターネット検索設定パネルの使い方を解説します。パネルが表示されていない場合は、次の手順に従ってください：
+</p>
+
+<ol>
+<li>［編集］を開いて［設定］を選択します。</li>
+<li>［Navigator］カテゴリーの中の、［インターネット検索］をクリックします。 （サブカテゴリーが表示されていない場合は、カテゴリーをダブルクリックしてリストを開きます。）</li>
+</ol>
+
+<p></p>
+<p>インターネット検索設定パネルでは、Mozilla を利用した検索の設定ができます：</p>
+
+<ul>
+<li><b>ディフォルトの検索エンジン</b>：</li>
+<ul>
+<li><b>使用する検索エンジン</b>： ドロップダウンリストを使って、Web 検索に利用したい検索エンジンを選択してください。</li>
+</ul>
+</li>
+<li><b>検索結果</b>：</li>
+<ul>
+<li><b>検索結果が得られた場合、Sidebar の検索タブを開く</b>： これを選択すると、Mozilla は Sidebar を開き、検索結果を表示します。</li>
+</ul>
+
+</li>
+<li><b>Sidebar 検索タブの設定</b>：</li>
+<ul>
+<li><b>シンプル</b>： Mozilla で検索する際に、一つの検索エンジンを使う場合はこれを選択してください。</li>
+<li><b>詳細</b>： これをクリックして、Mozilla で検索する際に利用する検索エンジンをリストから選択してください。</li>
+</ul>
+</li>
+</ul>
+
+<p>&nbsp; </p>
+<hr>
+<a name="preferences:Tabbed_BrowsingIDX"></a> 
+<a name="Tabbed"></a>
+<h2>Navigator 設定 − タブブラウズ</h2>
+
+<p>このセクションでは、タブブラウズ設定パネルの使い方を解説します。パネルが表示されていない場合は、次の手順に従ってください：
+</p>
+
+<ol>
+<li>［編集］を開いて［設定］を選択します。</li>
+<li>［Navigator］カテゴリーの中の、［タブブラウズ］をクリックします。 （サブカテゴリーが表示されていない場合は、カテゴリーをダブルクリックしてリストを開きます。）</li>
+</ol>
+
+<p></p>
+<p>タブブラウズ設定パネルでは、タブブラウズの設定ができます：</p>
+<p><b>注記</b>： Mac OS では、Control(Ctrl) キーを押すように指示がある場合、 Command キーを押してください。</p>
+<ul>
+  
+<li><b>タブ表示</b>：</li>
+<ul>
+<li><b>タブが一つのときタブバーを隠す</b>： これを選択すると、タブが一つだけの場合は、タブバーを表示せずに Web ページを開きます。</li>
+<li><b>バックグラウンドでリンクをロードする</b>： これを選択すると、 &quot;新しいタブで開く&quot; でリンクを開いたときに、Mozilla が新しいタブに切り替わるのを防ぎます。</li>
+</ul>
+</li>
+<li><b>ウィンドウの代わりにタブを開く場合</b>：</li>
+<ul>
+<li><b>Web ページで中クリックか control＋クリックした場合</b>： これを選択すると、リンクをマウスの中ボタンか Ctrl キーを押しながらクリックしたときに、新しいタブで Web ページを開きます。</li>
+<li><b>URL バーを Control＋Enter した場合</b>： これを選択すると、ロケーションバーに URL を入力して Control＋Enter した場合に、Web ページを新しいタブで開きます。</li>
+</ul>
+<p>&nbsp;</p>
+</ul>
+<hr>
+<a name="downloadSDX"></a>
+<a name="downloadingSDX"></a>
+<a name="Download_Manager:preferencesIDX"></a>
+<a name="preferences:DownloadsIDX"></a>
+<a name="downloads"></a>
+<h2>Navigator の設定 − ダウンロード</h2>
+
+<p>このセクションでは、ダウンロード設定パネルの使い方を解説します。パネルが表示されていない場合は、次の手順に従ってください：
+</p>
+
+<ol>
+<li>［編集］を開いて［設定］を選択します。</li>
+<li>［Navigator］カテゴリーの中の、［タブブラウズ］をクリックします。 （サブカテゴリーが表示されていない場合は、カテゴリーをダブルクリックしてリストを開きます。）</li>
+</ol>
+
+<p><br></p>
+
+
+<p>ダウンロード設定パネルでは、Web ページからダウンロードしたファイルの処理方法を設定できます。：</p>
+<ul>
+<li><b>ダウンロードを開始するとき</b>：</li>
+<ul>
+<li><b>ダウンロード マネージャを開く</b>： 現在および以前のダウンロードに関するステータス情報を表示したダウンロード マネージャを開きます。 すべてのダウンロードに関するステータス情報が 1 つのウィンドウにまとめて表示されます。</li>
+<li><b>進捗状況ダイアログを開く</b>： 進行中のダウンロードに対するステータス情報を示す進捗状況ダイアログ ボックスを表示します。 各ダウンロードのステータス情報は別のウィンドウに保管されます。</li>
+<li><b>何も開かない</b>： ダウンロード用のダイアログボックスを開かないでダウンロードを実行します。 どのダウンロードのステータスも表示されません。</li>
+</ul>
+</ul>
+<p>ファイルのダウンロードについての詳細情報は、<a href="nav_help.html#nav_helperapps">さまざまなファイル タイプを管理する</a>をご覧ください。</p>
+<p>&nbsp;</p>
+<hr>
+<p><i>2002年10月 7日</i></p>
+<hr>
+<p>Copyright 1994-2002 Mozilla Organization.</p>
+<hr>
+<p>Translated for Mozilla by mozilla-gumi &lt;http://mozilla.gr.jp&gt; participants.</p>
+</body>
+</html>

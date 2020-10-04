@@ -1,0 +1,172 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=EUC-JP">
+<title>SSL 設定</title>
+<link rel="stylesheet" href="chrome://help/locale/content_style.css" type="text/css">
+
+<!--
+*************************************** 覚え書き ************************************
+
+原文
+題名：Privacy and Security Preferences - SSL
+URL ：http://lxr.mozilla.org/mozilla/source/extensions/help/resources/locale/en-US/ssl_help.html
+日付：5/10/2001
+更新：7/5/2001
+更新：8/31/2001
+
+和訳履歴
+開始：2001/05/30 山口
+草稿：2001/06/16 山口
+更新：2001/10/10 山口 8/31/2001
+更新：2002/03/02 山口 8/31/2001を日本語表記に
+更新：2002/03/03 山口 もじら組リンクを追加
+更新：2002/04/07 山口 文字コード、フッター、SSL バージョン情報他追加。
+更新：2002/04/18 山口 Rev.:1.16
+更新：2002/05/12 山口 Rev.:1.18
+更新：2002/06/06 山口 Rev.:1.21
+更新：2002/06/28 山口 Rev.:1.23
+更新：2003/01/28 松葉 Rev.:1.24
+                      下さい を ください に統一
+                      title 行を charset タグの後へ移動
+                      TLS についての大切な注意 の 強調タグ の抜けを追加
+
+*************************************** 覚え書き ************************************
+-->
+
+</head>
+
+<body bgcolor="white">
+<div class="boilerplate">このドキュメントは、あなたに情報提示する目的のためにのみ、Netscape から提供されたものです。この文書は、インターネット上での、あなたの個人情報のプライバシーやセキュリティを保護する手段を講じるのに役立つかもしれません。しかし、このドキュメントは、全てのオンラインプライバシーおよびセキュリティ問題について扱っているわけではありません。またこのドキュメントは、インターネット上で十分なプライバシーおよびセキュリティ保護のために何が必要なのかを、Netscape が奨励するものでもありません。</div>
+
+<hr>
+
+<a NAME="settings:SSLIDX"></a>
+<a NAME="ssl_settings"></a>
+<h1>SSL 設定</h1>
+
+<p>このセクションでは、SSL 設定や暗号化設定の使い方を解説します。</p>
+
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" Width=324>
+<tr>
+<td class="inthissections">
+<p>このセクションでは：</p>
+<p><a href="#ssl_prefs">プライバシーとセキュリティ − SSL</a></p>
+<p><a href="#cipher_help">暗号の編集</a></p>
+</td>
+</tr>
+</table>
+
+<p>&nbsp;</p>
+
+<hr><a NAME="preferences:SSLIDX"></a>
+<a NAME="ssl_prefs"></a>
+<a NAME="SSL:preferencesIDX"></a>
+<h2>プライバシーとセキュリティ設定 − SSL</h2>
+<p>このセクションでは、SSL 設定パネルの使い方について解説します。またそのパネルが表示されていない場合は、次のステップに従ってください：</p>
+
+<ol>
+    <li>［編集］ メニューを開き ［設定］ を選択します。</li>
+    <li>［プライバシーとセキュリティー］ カテゴリーで、 ［SSL］ をクリックします。（サブカテゴリーが表示されていない場合は、［プライバシーとセキュリティー］をダブルクリックして一覧を展開してください。）</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" Width=324>
+<tr>
+<td class="inthissections">
+<p>このセクションでは：</p>
+<p><a href="#SSL_Protocol_Versions">SSL プロトコルのバージョン</a></p>
+<p><a href="#SSL_Warnings">SSL の警告</a></p>
+</td>
+</tr>
+</table>
+
+<p>&nbsp;</p>
+<a NAME="SSL_Protocol_Versions"></a>
+<h3>SSL プロトコルのバージョン</h3>
+
+
+<p>セキュリティーソケットレイヤー （Secure Sockets Layer： SSL） プロトコルは、Web サイトとブラウザソフトウェアとの両者間でやり取りされる、暗号化された情報の相互認証を管理する際の手順を定義しています。トランスポートレイヤーセキュリティー （Transport Layer Security： TLS） プロトコルは、SSL に基づいた IETF スタンダードで、 TLS 1.0 は SSL 3.1 であると理解されています。</p>
+
+<p>通常、次の三つのチェックボックスを選択し、古いタイプと新しいタイプの Web サーバがブラウザと交信できるようにしてください：</p>
+<ul>
+	<li><b>SSL version 2 を有効にする：</b> 古いタイプの Web サーバとブラウザが交信できるようにします。</li>
+	<li><b>SSL version 3 を有効にする：</b> 新しいタイプの Web サーバとブラウザが交信できるようにします。</li>
+	<li><b>TLS を有効にする：</b> TLS をサポートする Web サーバがその機能を利用できるようにします。</li>
+</ul>
+
+<p>個々の暗号化を有効／向こうにするには、［暗号の編集］ボタンをクリックしてください：
+
+<ul><li><b>暗号の編集：</b> 何をしたらいいのか確実に分かっている場合か、システム管理者と共に変更を確認しない限り、個々の暗号化を編集しようとしないでください。詳細情報は、<a href="#cipher_help">［暗号の編集］</a>をご覧ください。</li></ul>
+
+<p><b>TLS についての大切な注意</b>： サーバの中には SSL が正しく実装されていないものもあり、TLS をサポートするクライアントソフトウェア （例えばブラウザ） と SSL ハンドシェークを確立できないものがあります。このようなサーバは &quot;TLS intolerant&quot; として知られています。</p>
+
+<p>SSL 設定パネルで &quot;TLS を利用可能にする&quot; オプションを選択した場合、サーバと安全性の高い接続を確立しようとする際に TLS プロトコルを使用しようとします。サーバが TLS intolerant でこの接続に失敗した場合は SSL 3.0 を使用します。</p>
+
+<p>現在、この挙動に関して一つだけ重要な例外があります： プロキシを通じて SSL 接続をしている場合、ブラウザは全く TLS を使用しようとはしません。その代わり SSL 3.0 を使用します。</p>
+
+<p>&nbsp;</p>
+<a NAME="SSL_Warnings"></a>
+<h3>SSL の警告</h3>
+
+<p>表示しているウェブサイトが暗号化した接続を利用しているかどうかは、簡単に判ります。接続が暗号化されている場合は、 Navigator ウィンドウの右下隅の南京錠のアイコンが閉じた状態になります。接続が暗号化されていない場合は、南京錠は開いた状態です。</p>
+
+<p>追加の警告が必要な場合は、SSL 設定パネルの警告チェックボタンを選択してください。人によっては、こうした警告を鬱陶しく感じるようです。</p>
+
+<p>これらの Navigator の警告を利用可能にしたい場合は、対応するチェックボックスを選択します：</p>
+
+<ul>
+    <li><b>暗号化をサポートするページに入るとき：</b>
+    暗号化をサポートするサイトに入るとき常に警告を受け取りたい場合に、この項目を選択します。</li>
+    <li><b>低い暗号化の程度を使用しているページを表示するとき：</b>
+    低い暗号化をサポートするページを表示するとき常に警告を受け取りたい場合に、この項目を選択します。
+    （低い暗号化とは 40 ビットキーを使用した、最も程度の低い暗号化を使用するものです。）
+    <li><b>暗号化をサポートするサイトから離れるとき：</b>
+    暗号化をサポートするページから離れて暗号化をサポートしないページを表示するときに、
+    常に警告を受け取りたい場合、この項目を選択します。</li>
+	<LI><b>暗号化されていないページから暗号化されていないページにデータを送信するとき：</b>
+	 暗号化されていない接続でデータを送るとき、常に警告を受け取りたい場合に、この項目を選択してください。暗号化されていない情報をインターネット上で送る場合、第三者によって簡単に読み取られてしまいます。</li>
+	<LI><b>暗号化/非暗号化が混在したページを表示するとき：</b>
+	暗号化されていない情報を含むページを示する時には常にこの警告を表示したい場合に、このオプションを選択してください。</li>
+</ul>
+
+<p>簡単な言葉の定義は、 <a href="glossary.html#authentication">認証</a>、
+ <a href="glossary.html#encryption">暗号化</a>、
+ または<a href="glossary.html#certificate">証明書</a>をご覧ください。</p>
+
+<hr>
+<a NAME="cipher_help"></a>
+<a NAME="SSL:ciphersIDX"></a>
+<a NAME="encryption:technologiesIDX"></a>
+<a NAME="encryption_technologiesSDX"></a>
+<h2>暗号の編集</h2>
+
+<p>このセクションは、［暗号の編集］ダイアログボックスの使い方を解説します。このダイアログボックスが表示されていない場合は、次のステップに従ってください：</p>
+
+<ol>
+	<li> ［編集］ メニューを開き ［設定］ を選択します。</li>
+	<li>［プライバシーとセキュリティー］ カテゴリーで、 ［SSL］ をクリックします。（サブカテゴリーが表示されていない場合は、［プライバシーとセキュリティー］をダブルクリックして一覧を展開してください。）</li>
+	<li>［暗号の編集］ボタンをクリックします。</li>
+</ol>
+
+<p>［暗号の編集］ダイアログボックスでは、暗号や<a href="glossary.html#cryptographic_algorithm">暗号化アルゴリズム</a>を選択したり、選択を解除したりすることができます。設定を変更する前に、システム管理者に問い合わせてください。</p>
+
+<p>それぞれのチェックボックスは暗号スイート、または暗号アルゴリズムのセットに対応しています。</p>
+
+<p>暗号や暗号化についての詳細情報は、次のオンラインドキュメントをご覧ください：</p>
+
+<ul>
+	<li><a href="http://developer.netscape.com/docs/manuals/security/pkin/index.htm" target="_blank">公開鍵暗号入門</a>
+	<li><a href="http://developer.netscape.com/docs/manuals/security/sslin/index.htm" target="_blank">SSL 入門<li><a href="http://jt.mozilla.gr.jp/projects/security/pki/nss/nss-3.4/nss-3.4-algorithms.html" target="_blank">NSS 3.4 で利用可能な暗号技術</a>
+</ul>
+
+<p>&nbsp;
+
+<hr>
+<p><i>2002年 6月20日</i></p>
+<div class="documentinfo">
+<p>Copyright &copy; 1994-2002 Netscape Communications Corporation.</p>
+<p>Translated for Mozilla by mozilla-gumi &lt;http://mozilla.gr.jp&gt; participants.</p>
+</div>
+</body>
+</html>

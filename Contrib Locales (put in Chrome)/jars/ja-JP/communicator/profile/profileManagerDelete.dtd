@@ -1,0 +1,1 @@
+<!ENTITY title "プロファイルを削除"><!ENTITY intro "プロファイルを削除すると、有効なプロファイルのリストからプロファイルが削除され、やり直しはできません。また削除を続行すると、&brandShortName; でユーザが保存したメールや証明書を含むデータファイルも削除されます。"><!ENTITY question "プロファイルを保存しているファイルを削除しますか？(このオプションを選択するとプロファイルフォルダの全てのファイルが削除されます。)"><!ENTITY delete.yes.label "ファイルを削除"><!ENTITY delete.no.label "ファイルを残して削除"><!ENTITY cancel.label "キャンセル">

@@ -1,0 +1,930 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=EUC-JP">
+<title>Mozilla をカスタマイズする</title>
+
+<link rel="stylesheet" href="chrome://help/locale/content_style.css" type="text/css">
+
+<!--
+    原文 URL http://lxr.mozilla.org/mozilla/source/extensions/help/resources/locale/en-US/customize_help.html
+    原文 Title "Customizing Mozilla"
+
+    作業途中#1: 2002-04-01 21:40 by mal (mal@mozilla.gr.jp)
+                Original Japanese Translation from Netscape 6.2
+                ToDo: JLP の各項目名にあわせる
+    2003-01-26: matsuba
+                title 行と charset 行の順序を変更
+                その他用語の統一
+    2003-02-05: matsuba(rev.1.11)
+-->
+</head>
+
+<body bgcolor="white">
+
+<a name="cust_main"></a>
+<div class="boilerplate">このドキュメントは、情報提供のみを目的として Mozilla により提供されたものです。 このドキュメントには、インターネット上で個人情報のプライバシーおよびセキュリティを保護するための手順が記載されています。 ただし、このドキュメントには、オンラインにおけるプライバシーおよびセキュリティに関するすべての問題が記載されているわけではなく、また、インターネット上における妥当なプライバシーおよびセキュリティ保護に関する Mozilla からの勧告を表すものでもありません。</div>
+<hr>
+<h1>Mozilla をカスタマイズする</h1>
+<p>Sidebar、ブックマーク、タブ式ブラウジングなどの機能を使用して、Mozilla をカスタマイズできます。</p>
+<p>このセクションでは、カスタマイズ可能な Mozilla のブラウザ コンポーネントである Navigator について説明します。</p>
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" width=324>
+<tr>
+<td class="inthissection">
+<p>このセクションの内容：</p>
+<p><a href="#cust_sidebar">Sidebar</a></p>
+<p><a href="#cust_tabbed">タブブラウジング</a></p>
+<p><a href="#cust_font">フォント、配色、テーマを変更する</a></p>
+<p><a href="#cust_toolbar">ツールバー</a></p>
+<p><a href="#cust_bkmk">ブックマーク</a></p>
+<p><a href="#cust_page">Mozilla の起動方法を指定する</a></p>
+<p><a href="cs_nav_prefs_appearance.html#nav_settings">Navigator の設定</a></p>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+<hr>
+<a NAME="cust_sidebar"></a>
+<h1>Sidebar</h1>
+<p>&nbsp;</p>
+
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" Width=324>
+<tr>
+<td class="inthissection">
+<p>このセクションの内容： </p>
+<p><a href="#cust_sidebar_define">Sidebar について</a></p>
+<p><a href="#cust_sidebar_using">Sidebar を使用する</a></p>
+<p><a href="#cust_sidebar_adding">Sidebar タブを追加する</a></p>
+<p><a href="#cust_sidebar_indiv">Sidebar タブをカスタマイズする</a></p>
+<p><a href="#cust_sidebar_reorg">Sidebar タブを再編成する</a></p>
+<p><a href="#cust_sidebar_removing">Sidebar タブを削除する</a></p>
+<p><a href="#cust_sidebar_openclose">Sidebar を開く／閉じる、またはサイズを変更する</a></p>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+<a name="My_Sidebar:descriptionIDX"></a>
+<a name="cust_sidebar_define"></a>
+<h2>Sidebar について</h2>
+
+<p>Sidebar はブラウザにあるフレームで、カスタマイズが可能です。ここには、− 最新のニュースや天気、アドレス帳、友だちリスト、株式相場、カレンダーなど − 常時使用する項目を保持できます。 この他にも多くのオプションを選択できます。Sidebar にはこれらの項目がタブとして表示され、タブの内容は常に最新の情報に更新されます。</p>
+
+<p>Mozilla には、予めいくつかの Sidebar タブが設定されていますが、タブを追加、削除、並べ替えて Sidebar をニーズに合わせて設定することができます。</p>
+
+<p> [&nbsp;<A HREF="#cust_sidebar">このセクションの最初に戻る</A>］
+</p>
+
+
+<p>&nbsp;
+</p>
+<a name="My_Sidebar:usingIDX"></a>
+<a name="cust_sidebar_using"></a>
+<h2>Sidebar を使用する</h2>
+
+<p>Sidebar は、手作業で<a href="#cust_sidebar_openclose">閉じ</a>ない限りブラウザの左側に常に表示されています。タブを表示するには：</p>
+
+<ul>
+
+<li>タブのタイトルをクリックします。たとえば、［検索］という文字をクリックすると、 ［検索］タブが開き、Web ページを検索することができます。
+
+</ul>
+<table summary="image table" cellpadding="5">
+<tr>
+<td width="140"> <img src="images/sidebarclosed_small.gif" hspace="0" vspace="0" alt="Sidebar とハンドル">
+</td>
+<td valign="middle" width="820">
+<p><b>Sidebar の<br>ハンドル</b></p>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<p>Sidebar が表示されない場合、閉じられている可能性があります。Sidebar を開くには次の操作を行います。：</p>
+<ol>
+<li>マウスポインタを Mozilla ウィンドウの左側の枠線に沿って上下に動かします。Sidebar の「ハンドル」に触れると、ポインタは図に示すように手の形に変化します。
+<li>ハンドルをクリックして Sidebar を開きます。
+<p><b>注記</b>： Navigator の［表示］メニュー（［表示／非表示］サブメニュー）で［Sidebar］がオフの場合、フレームやハンドルは表示されません。</p>
+</ol>
+</td>
+</tr>
+</table>
+<p><b>ヒント</b>： Sidebar タブを再び読み込むには、タブのタイトルを右クリックして、ポップアップ メニューから［再読み込み］を選択します。 </p>
+<p> [&nbsp;<A HREF="#cust_sidebar">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="My_Sidebar:adding_tabsIDX"></a>
+<a name="cust_sidebar_adding"></a>
+<h2>Sidebar タブを追加する</h2>
+<p>新しいタブを追加するには：
+<ol>
+<li>Sidebar 上部の［タブ］をクリックし、メニューから［Sidebar の設定］を選択します。
+<li>［Sidebar の設定］ダイアログ ボックスで、左側のリストからタブを選択します。三角形をクリックすると、フォルダを開閉できます。
+<li>［追加］をクリックします。
+<li>必要に応じて、上の操作を繰り返してタブを追加します。
+<li>［OK］をクリックして完了します。
+</ol>
+<p><b>注記</b>： Sidebar に 8 個以上のタブを追加すると、画面の見やすさを保つために、それ以上のタブは表示されなくなります。 隠れたタブを表示するには、目的のタブが表示されるまで Sidebar の下にある下矢印ボタンをクリックします。 表示したタブを再び非表示にするには、上矢印ボタンをクリックします。</p>
+<p><b>ヒント</b>： </p>
+<ul>
+<li>Sidebar タブを追加する前にプレビューするには、［Sidebar の設定］ダイアログ ボックスの左側にあるリストからタブを選択し、［プレビュー］をクリックします。数秒待つと、タブが［タブ プレビュー］ポップアップ ウィンドウに表示されます。</li>
+<li> Sidebar で使用できる Sidebar タブの詳細なリストをカテゴリ別に表示するには、Sidebar の最上部にある［タブ］をクリックし、［Sidebar のディレクトリ］を選択します。</li>
+</ul>
+<p>Sidebar タブは、次の手順にしたがって簡単にオン／オフにできます。</p>
+<ol>
+<li>Sidebar 上部の［タブ］をクリックします。メニューの下半分に現在のタブの一覧が表示されます。
+<li>Sidebar に表示するタブを選択して、チェックマークを付けます。また、表示したくないタブのチェックマークを消します（チェックマークを消してもタブはメニューに残ります）。
+</ol>
+<p><b>ヒント：</b> Sidebar タブをすばやくオフにするには、名前をマウスの右のボタンでクリックし、［パネルの非表示］を選択します。</p>
+<p> [&nbsp;<A HREF="#cust_sidebar">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="My_Sidebar:customizing_tabsIDX"></a>
+<a name="cust_sidebar_indiv"></a>
+<h2>Sidebar タブを個別にカスタマイズする</h2>
+<p> <b>注記</b>： カスタマイズできないタブもあります。</P>
+<ol>
+<li>Sidebar 上部の［タブ］をクリックし、メニューから［Sidebar の設定］を選択します。
+<li>右側のリストからタブを選択します。
+<li>［タブを設定］をクリックします。タブ設定の情報とオプションがウィンドウに表示されます
+<p>タブの設定に必要な手順は、タブのソースによって異なります。− Mozilla だけでなく、インターネットを使用する会社、組織、個人なら誰でもタブの提供者になることができます。</p>
+<li>タブの提供者の指示に従った後、ユーザ設定ウィンドウを閉じます（または、提供者の指示に従ってウィンドウを閉じます）。
+<li>［OK］をクリックして完了します。
+</ol>
+<p> [&nbsp;<A HREF="#cust_sidebar">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="My_Sidebar:reorganizing_tabsIDX"></a>
+<a name="cust_sidebar_reorg"></a>
+<h2>Sidebar タブを再編成する</h2>
+<ol>
+<li>Sidebar 上部の［タブ］をクリックし、メニューから［Sidebar の設定］を選択します。
+<li>右側のリストからタブを選択します。
+<li>［上へ］と［下へ］を使用して、タブを移動します。
+<li>手順 1 と 2 を繰り返して、タブを並べ替えます。
+<li>［OK］をクリックして完了します。
+</ol>
+<p> [&nbsp;<A HREF="#cust_sidebar">このセクションの最初に戻る</A>］ </p>
+
+
+
+<p>&nbsp;</p>
+<a name="My_Sidebar:removing_tabsIDX"></a>
+<a name="cust_sidebar_removing"></a>
+<h2>Sidebar タブを削除する</h2>
+<ol>
+<li>Sidebar 上部の［タブ］をクリックし、メニューから［Sidebar の設定］を選択します。
+<li>右側のリストからタブを選択します。
+<li>［削除］をクリックします。
+<li>削除したいタブすべてについて手順 2 と 3 を繰り返します。
+<li>［OK］をクリックして完了します。
+</ol>
+<p> [&nbsp;<A HREF="#cust_sidebar">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="cust_sidebar_openclose"></a>
+<h2>Sidebar を開く／閉じる、またはサイズを変更する</h2>
+<table summary="image table" cellpadding="5">
+<tr>
+<td colspan="2">Sidebar のフレームを開く、閉じる、サイズ変更するには、Sidebar のハンドルを使用します。</td>
+</tr>
+<td><tr valign="top">
+<td><IMG SRC="images/sidebarclosed_small.gif" HSPACE="0" VSPACE="0" alt="Sidebar とハンドルの画像"></td>
+<td valign="middle" width="820">
+<p><b>Sidebar の<br>ハンドル</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td colspan="2"> Sidebar を閉じても、ハンドルは表示されます。ハンドルが表示されない場合は、［表示］メニューの［表示／隠す］から［Sidebar］を選択します。マウス ポインタを Mozilla ウィンドウの左側の枠線に沿って上下に動かします。Sidebar の「ハンドル」に触れると、ポインタは図に示すように手の形に変化します。
+<p>&nbsp;</p>
+<ul>
+<li>パーソナルツールバーの左側にある［Sidebar を開く］アイコン <img src="chrome://navigator/skin/sbar-open.gif" alt="［Sidebar を開く］アイコン"> をクリックします。
+<li>Sidebar を開く／閉じるには、ハンドルをクリックします。
+<li>Sidebar のサイズを変更するには、ハンドルをクリックしてドラッグします。
+</ul>
+</td>
+</tr>
+</table>
+<p>ハンドルを含め、Sidebar 全体を削除するには： </p>
+<ul>
+<li>パーソナルツールバーの左側にある［Sidebar を閉じる］アイコン <img src="chrome://navigator/skin/sbar-close.gif" alt="［Sidebar を閉じる］アイコン"> をクリックします。
+<li>Sidebar の右上にある［X］をクリックします。
+<li>［表示］メニューから［表示／隠す］を選択し、［Sidebar］を選択解除します。
+<li>F9 キーを押します。
+</ul>
+<p> [&nbsp;<A HREF="#cust_sidebar">このセクションの最初に戻る</A>］ </p>
+<p>&nbsp;</p>
+
+<hr>
+<a NAME="cust_tabbed"></a>
+<a NAME="multiple_windowsSDX"></a>
+<a NAME="multiple_pagesSDX"></a>
+<a NAME="Tabbed_BrowsingIDX"></a>
+<a NAME="Navigator:Tabbed_BrowsingSDX"></a>
+<h1>タブブラウジング</h1>
+<p>&nbsp;</p>
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" width=324>
+<tr>
+<td class="inthissection">
+<p>このセクションの内容：</p>
+<p><a href="#tabbed_whatis">タブブラウジングについて</a></p>
+<p><a href="#tabbed_setting">タブブラウジングを設定する</a></p>
+<p><a href="#tabbed_opening">タブを開く</a></p>
+<p><a href="#tabbed_bookmarking">タブにブックマークを付ける</a></p>
+<p><a href="#tabbed_closing">タブを閉じる</a></p>
+</td>
+</tr>
+</table>
+<p>&nbsp;</p> <a NAME="Tabbed_Browsing:what_isIDX"></a>
+<h2><a name="tabbed_whatis"></a>タブブラウジングについて</h2>
+<p>タブブラウジング機能を使用すると、1 つのウィンドウに複数の Web ページを開くことができます。 各 Web ページにはそれぞれ専用のタブがあり、それらは［Navigator］ウィンドウ上部のタブ バーに表示されます。 たとえば、netscape.com、icq.com、および cnn.com にアクセスすると、それぞれ個別のウィンドウが表示されるのではなく、1 つのウィンドウ内にすべての Web ページが表示されます。 </p>
+<table summary="image table" align="center" border="0" cellspacing="0">
+<tr>
+<td> このアイコンをクリックすると、新しいタブが開きます。</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2"><img src="images/tabbed_browsing_bar.gif" alt="タブ バー"> </td>
+</tr>
+<tr>
+<td align="middle"> <div align="left">表示しているタブ</div>
+</td>
+<td align="middle"> <div align="right">このアイコンをクリックすると、表示しているタブが閉じます。</div>
+</td>
+</tr>
+<tr>
+<td align="middle" colspan="2"> <div align="center"> <b>タブ バー</b></div>
+</td>
+</tr>
+</table>
+<p>複数の Web ページにアクセスしてもすべて 1 つのウィンドウ内に表示できるため、デスクトップ上がすっきりします。 さらに、別のウィンドウに切り替えることなく、1 つのウィンドウから Web ページを開いたり、閉じたり、再読み込みすることができます。</p>
+<p>[&nbsp;<a href="#cust_tabbed">このセクションの最初に戻る</a>&nbsp;] </p>
+
+
+<p>&nbsp;</p>
+<a NAME="Tabbed_Browsing:setting_upIDX"></a>
+<h2><a name="tabbed_setting"></a>タブブラウジングを設定する</h2>
+<p>タブブラウジングを設定するには、いくつかの方法があります。 たとえば、ナビゲーションツールバーからタブを開くように設定を変更できます。 また、新しい Navigator タブを背景で読み込むようにすれば、最初のページが表示されている状態で次のページを読み込むことが可能になります。 Mozilla のタブブラウジングの設定について詳しくは、「<a href="cs_nav_prefs_navigator.html#Tabbed">Navigator の設定 − タブブラウジング</a>」を参照してください。</p>
+<p>[&nbsp;<a href="#cust_tabbed">このセクションの最初に戻る</a>&nbsp;] </p>
+<p>&nbsp;</p>
+
+<a NAME="Tabbed_Browsing:opening_tabsIDX"></a>
+<a NAME="opening_Navigator_tabsSDX"></a>
+<h2><a name="tabbed_opening"></a>タブを開く</h2>
+<p>Navigator タブは以下の方法で開くことができます。：</p>
+<p><b>新規の Navigator タブを開くには： </b> </p>
+<ul>
+<li><b>［ファイル］メニューから</b>： ［ファイル］メニューの［新規作成］から［Navigator タブ］を選択します。</li>
+<li><b>タブ バーから</b>： タブ バーの左側にある［新しいタブ］アイコン <img src="chrome://global/skin/icons/tab-new.gif" alt="［新しいタブ］アイコン"> をクリックします（表示されている場合のみ）。</li>
+<li><b>ポップアップ メニューから</b>： タブ バーが表示されている場合は、タブ バーを右クリックし、ポップアップ メニューから［新しいタブ］を選択します。</li>
+</ul>
+<p><b>Navigator タブ内の Web ページ リンクを開くには：</b> </p>
+<ul>
+<li><b>ポップアップ メニューから</b>： Web ページ リンクを右クリックして、［新しいタブでリンクを開く］を選択します （Mac OS の場合は、Cmd キーを押したままマウスボタンをクリックします）。
+</li>
+<li><b>ナビゲーションツールバーから</b>： ナビゲーションツールバーに Web ページのアドレスを入力し、Ctrl+Enter キーを押します （Mac の場合は、Cmd+Enter キーを押します）。<br>
+<b>注記</b>： ナビゲーションツールバーから Navigator タブを開くには、タブブラウジングを設定する必要があります。 詳しくは、「<a href="cs_nav_prefs_navigator.html#Tabbed">Navigator の設定 − タブブラウジング</a>」を参照してください。</li>
+</ul>
+<p><b>ヒント</b>：</p>
+<ul>
+<li>新規の Navigator タブをすばやく開くには、Ctrl+T キーを押します。</li>
+<li>1 つまたはすべての Navigator タブを再読み込みするには、タブ バー上を右クリックし、［タブを読み込む］または［すべてのタブを読み込む］を選択します。</li>
+</ul>
+<p>[&nbsp;<a href="#cust_tabbed">このセクションの最初に戻る</a>&nbsp;] </p>
+
+
+
+<p>&nbsp;</p>
+<a name="Tabbed_Browsing:bookmarking_tabsIDX"></a>
+<a name="GroupMarksSDX"></a>
+<a name="bookmark_groupSDX"></a>
+<a name="bookmarking_Navigator_tabsSDX"></a>
+<h2><a name="tabbed_bookmarking"></a>タブにブックマークを付ける</h2>
+
+<p>ブックマークが付けられたタブのグループをグループマークと呼びます。 現在のウィンドウに表示されている Navigator タブのグループにブックマークを付けるには、以下の手順で操作します。</p>
+
+<ol>
+<li> ［ブックマーク］メニューから［このタブ グループにブックマークを付ける］を選択します。<br>
+</li>
+<li>［名前］フィールドにブックマーク グループの名前を入力します。<br>
+</li>
+<li>以下のオプションのいずれかを選択します。
+<ul>
+<li><b>作成場所</b>： グループマークを作成するフォルダを選択します。<br>
+</li>
+<li><b>新しいフォルダ</b>： グループマーク用の新しいフォルダを作成できます。<br>
+</li>
+<li><b>標準設定を使用する</b>： 指定した新しいブックマーク フォルダにグループマ ークを入れます。 新しいブックマーク フォルダを指定する方法については、「<a href="customize_help.html#cust_bkmk_organize">ブックマークを並べ替える</a>」を参照してください。<br>
+</li>
+</ul>
+</li>
+<li>［OK］をクリックしてグループマークを追加します。</li>
+</ol>
+
+<p><b>ヒント</b>： タブのグループをホーム ページとして使用する方法については、「<a href="cs_nav_prefs_navigator.html#Navigator">Navigator の設定 − Navigator</a>」を参照してください。<br></p>
+
+<p>[&nbsp;<a href="#cust_tabbed">このセクションの最初に戻る</a>&nbsp;] </p>
+
+
+<p>&nbsp;</p>
+<a NAME="closing_Navigator_tabsSDX"></a>
+<a NAME="Tabbed_Browsing:closing_tabsIDX"></a>
+<h2><a name="tabbed_closing"></a>タブを閉じる</h2>
+<p>Navigator タブを閉じるには、いくつかの方法があります。：</p>
+<p><b>現在表示している Navigator タブを閉じるには、以下の操作のいずれかを行います。</b>：</p>
+<ul>
+<li>［ファイル］メニューから［タブを閉じる］を選択します。</li>
+<li>タブ バーの右側にある［X］ボタンをクリックします。</li>
+</ul>
+<table summary="image table" align="center" border="0" cellspacing="0">
+<tr>
+<td> このアイコンをクリックすると、新しいタブが開きます。</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2"><img src="images/tabbed_browsing_bar.gif" alt="タブ バー"> </td>
+</tr>
+<tr>
+<td align="middle"> <div align="left">現在表示しているタブ</div>
+</td>
+<td align="middle"> <div align="right">このアイコンをクリックすると、表示しているタブが閉じます。</div>
+</td>
+</tr>
+<tr>
+<td align="middle" colspan="2"> <div align="center"> <b>タブ バー</b></div>
+</td>
+</tr>
+</table>
+<p><b>ヒント： </b></p>
+<ul>
+<li>Navigator タブ（隠れているタブを含む）を閉じるには、タブを右クリックし、ポップアップ メニューから［タブを閉じる］を選択します。</li>
+<li>1 つの Navigator タブのみを開いて、その他のタブをすべて閉じるには、Navigator タブを右クリックし、［他のタブを閉じる］を選択します。</li>
+</ul>
+<p>[&nbsp;<a href="#cust_tabbed">このセクションの最初に戻る</a>&nbsp;] </p>
+
+
+
+<p>&nbsp;</p>
+<hr>
+<a NAME="cust_font"></a>
+<h1>フォント、配色、テーマを変更する</h1>
+<p>&nbsp;</p>
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" Width=324>
+  <tr>
+    <td class="inthissection">
+<p>このセクションの内容： </p>
+<p><a href="#cust_fonts">標準フォントを変更する</a></p>
+<p><a href="#cust_colors">標準の色を変更する</a></p>
+<p><a href="#cust_themes">テーマを変更する</a></p>
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<a NAME="serifSDX"></a>
+<a NAME="san_serifSDX"></a>
+<a NAME="cust_fonts"></a>
+<A NAME="Customizing FontsIDX"></A>
+<A NAME="fonts:customizingIDX"></A>
+<A NAME="web_pages:customizing_fontsIDX"></A>
+<h2>標準フォントを変更する</h2>
+<p>通常、Web ページはブラウザで設定された標準フォント、または Web ページの作成者が設定したフォントで表示されます。</p>
+<p>標準フォントを変更するには： </p>
+<ol>
+<li>［編集］メニューから［設定］を選択します。
+<li>［表示］カテゴリの下にある［フォント］を選択します。このカテゴリに表示されているオプションがない場合は、小さな三角形をクリックして展開表示します。
+<li>［フォントの対象言語］ドロップダウンリストから文字セットを選択します。たとえば、標準フォントを欧米の文字セットに設定する場合には［欧米］を選択します。
+<li> Proportional テキストを serif または sans-serif に指定します。次に、そのテキストのフォントサイズを指定します。Sefif (例： Times Roman)または、Sans-serif (例： Arial)のいずれかを選択できます。
+<li> Serif、Sans-Serif、Cursive、Fantasy、Monospace などのフォントが選択した言語で使用できる場合、これらのフォントを選択します。また、Monospace テキストのフォントサイズも指定できます。
+<li>デフォルトのフォントを Serif にするか Sans-Serif にするかを指定します。
+<li>［固定ピッチフォント］とそのサイズを設定します。特定のタイプのテキスト（たとえば、方程式や公式）は固定ピッチフォントで表示されます。
+</ol>
+<p>多くの Web ページ作成者は、独自のフォントやフォントサイズを指定しています。ユーザ設定で指定したフォント以外のフォントを使用できるようにするには、［Web ページで他のフォントを使用できる］をチェックします。
+<p>フォントの読みやすさを調整するには、Web ページの表示に使用する解像度(dpi)をドロップダウンリストから選択します。［その他］を選択すると［解像度の調整］ダイアログ ボックスが開き、画面に表示される行の長さによって、解像度を調整できます。解像度を高くすると、画面によってはテキストが読みやすくなることがあります。
+<p> [&nbsp;<A HREF="#cust_font">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<A NAME="colors:customizing_web_pageIDX"></A>
+<A NAME="web_pages:customizing_colorsIDX"></A>
+<a NAME="cust_colors"></a>
+<h2>標準の色を変更する</h2>
+<p>通常、Web ページの背景やテキストの配色は、ブラウザの標準設定、またはページの作成者によって設定されています。</p>
+<p>標準の色を変更するには： </p>
+<ol>
+<li>［編集］メニューから［設定］を選択します。
+<li>［表示］カテゴリの［配色］を選択しますこのカテゴリに表示されているオプションがない場合は、小さな三角形をクリックして展開表示します。
+<li>［テキスト］、［背景］、［未訪問のリンク］、［訪問したリンク］の隣の色付きブロックをクリックします。各オプションに対し、色見本から色を選択します。また、リンクに下線を引くように指定することもできます。
+</ol>
+<p>Web ページ作成者の多くは、独自の配色を指定しています。［指定した配色を使用し、Web ページの配色は無視する］を選択すると、作成者による指定を無視し、標準の配色を使用できます。</p>
+<p>Web ページのソースを表示する場合、［構文ハイライト機能を使用］を選択すると、Web ページのソース HTML 構文が指定した色でハイライトされて表示されます。</p>
+<p> [&nbsp;<A HREF="#cust_font">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<A NAME="themes:changingIDX"></A>
+<A NAME="changing_skinsSDX"></A>
+<a NAME="cust_themes"></a>
+<h2>テーマを変更する</h2>
+<p>テーマを変更すると、Mozilla の外観や雰囲気を変えることができます。</p>
+<ol>
+<li>［編集］メニューから［設定］を選択します。
+<li>［表示］カテゴリ下で［テーマ］を選択します。
+<li>使用するテーマをクリックして選択します。
+<li>［適用］ボタンをクリックして、［OK］をクリックし、選択を適用します。
+<p><b>注記： </b>新しいテーマは、Mozilla をいったん終了し、再起動すると有効になります。</p>
+</ol>
+<p><b>ショートカット</b>： ［表示］メニューから［テーマを適用］を選択し、使用するテーマを選択してテーマを変更することもできます。 </p>
+<p>[&nbsp;<A HREF="#cust_font">このセクションの最初に戻る</A>］
+
+
+<p>&nbsp;</p>
+<a NAME="cust_toolbar"></a>
+<hr>
+<h1>ツールバー</h1>
+<p>&nbsp;</p>
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" Width=324>
+  <tr>
+    <td class="inthissection">
+<p>このセクションの内容： </p>
+<p><a href="#cust_navbar">ナビゲーションツールバー</a></p>
+<p><a href="#cust_personal">パーソナルツールバー</a></p>
+<p><a href="#cust_statusbar">ステータスバー</a></p>
+<p><a href="#cust_taskbar">コンポーネントバー</a></p>
+<p><a href="#cust_hide">ツールバーを隠す</a></p>
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<a name="toolbar:navigation_toolbarIDX"></a> <a name="cust_navbar"></a>
+<h2>ナビゲーションツールバー</h2>
+<p>次に示すナビゲーションツールバーは、Web 上の移動に便利なツールです。</p>
+<table>
+<tr>
+<td colspan="4"> <IMG SRC="images/reload.gif" HSPACE="0" VSPACE="0" alt="ナビゲーションツールバー">
+</td>
+</tr>
+<tr>
+<td> <b>戻る</b> </td>
+<td> <b>次へ</b> </td>
+<td> <b>再読み込み</b> </td>
+<td> <b>停止</b> </td>
+  </tr>
+</table>
+<p> [&nbsp;<A HREF="#cust_toolbar">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="radioSDX"></a>
+<a name="toolbar:personal_toolbarIDX"></a>
+<a name="cust_personal"></a>
+<h2>パーソナルツールバー</h2>
+<p>パーソナルツールバーは完全にカスタマイズ可能です。− 必要に応じて、ボタンを追加／削除できます。このツールバーには、あらかじめいくつかのボタンが設定されています。My Mozilla ページ、ホーム ページ、検索、ショッピングなどへのリンクボタンです。</p>
+<table summary="image table">
+<tr>
+<td><img src="images/personalbar.gif" alt="パーソナルツールバー"></td>
+</tr>
+<tr>
+<td>
+<div align="center"><b>パーソナルツールバー</b></div>
+</td>
+</tr>
+</table>
+
+<p>このツールバーの項目は、簡単に追加、削除、並べ替えることができます。</p>
+<h4><a name="buttononoff"></a>ボタンのオン／オフを切り替える</h4>
+<ol>
+<li>［編集］メニューから［設定］を選択します。
+<li>［Navigator］をクリックします。
+<li>［ツールバーに表示するボタンを選択してください。］から、ツールバーに表示するボタンを選択します。
+<li>［OK］をクリックします。
+</ol>
+
+
+<a name="add_bookmarksSDX"></a>
+<a name="add_bookmarkSDX"></a>
+<a name="Adding_Personal_Toolbar_bookmarks"></a>
+<p></p>
+<h4>パーソナルツールバーにブックマークを追加する</h4>
+<p>お気に入りのブックマークや、ブックマークを入れるフォルダのボタンを追加できます。新しいブックマークをパーソナルツールバーに追加するには： </p>
+<ol>
+<li>ブックマークを付ける Web ページを開きます。
+<li>ナビゲーションツールバーの URL の左側にあるブックマークアイコン<img src="chrome://communicator/skin/bookmarks/bookmark-item.gif" alt="［ブックマーク］アイコンの画像" ><b> </b>（ナビゲーションツールバーの URL の左側）をパーソナルツールバーにドラッグします。パーソナルツールバーにアイコンを直接ドラッグするか、パーソナルツールバーのフォルダにドラッグできます。パーソナルツールバーにブックマークフォルダを追加するより詳細な情報は &quot;<a href="#add_personal_toolbar_folder">パーソナルツールバーフォルダにブックマークフォルダを追加する</a>&quot; を参照してください。
+</ol>
+<p><b>注記</b>： ［表示］設定の［Web サイト アイコンを表示］をオンにしている場合は、［ブックマーク］アイコン <img src="chrome://communicator/skin/bookmarks/bookmark-item.gif" alt="［ブックマーク］アイコンの画像" > として、そのページ固有のアイコンが表示される場合があります。 この設定を変更する方法については、「<a href="cs_nav_prefs_appearance.html#appearance">表示設定 − 表示</a>」を参照してください。</p>
+<p>パーソナルツールバーフォルダの各項目は、ツールバーボタンとして表示されます。これらのボタンをすべて表示するには、ブラウザウィンドウを拡大しなければならない場合もあります。</p>
+
+
+
+
+<a name="bookmark_folderSDX"></a>
+<a name="folderSDX"></a>
+<a name="add_personal_toolbar_folder"></a>
+<p><b>パーソナルツールバーにブックマーク フォルダを追加する</b></p>
+<p>ブックマーク フォルダをパーソナルツールバーに追加すると、お気に入りのブックマークをカテゴリ別に整理することができます。 たとえば、趣味関係のブックマーク フォルダと仕事関係のブックマーク フォルダを設置できます。 パーソナルツールバーに新しいブックマークを追加するには、以下の手順で操作します。</p>
+<ol>
+<li>［ブックマーク］メニューから［ブックマークの管理］を選択します。</li>
+<li>［パーソナルツールバー フォルダ］を選択します。</li>
+<li>ツールバー上にある［新しいフォルダ］をクリックします。</li>
+<li> 新しいブックマーク フォルダの名前を入力します。 標準設定の名前は［新しいフォルダ］です。</li>
+<li>新しいブックマーク フォルダ名を確認したら［OK］をクリックします。</li>
+</ol>
+<p>新しく作成したブックマーク フォルダは、パーソナルツールバーの一番下に表示されます。<br>
+</p>
+<p><br></p>
+
+
+<h4>パーソナルツールバーフォルダとしてブックマークフォルダを配置する</h4>
+<p><br></p>
+<ol>
+<li>［ブックマーク］メニューから［ブックマークの管理］を選択します。
+<li>ツールバーに表示する項目の入っているブックマーク フォルダを選択します。
+<li>［表示］メニューから［パーソナルツールバーとして設定］を選択します。
+</ol>
+<p>パーソナルツールバーのボタンをクリックすると、指定したフォルダの対応するブックマークが開くようになります。</p>
+<p></p>
+
+
+<h4>パーソナルツールバーからブックマークを削除する</h4>
+<p></p>
+<ol>
+<li>［ブックマーク］メニューから［ブックマークの管理］を選択します。
+<li>パーソナルツールバー フォルダをクリックします。
+<li>削除するブックマークまたはフォルダを選択します。
+<li>キーボードの Delete キーを押します。
+<li>［ブックマークの管理］ウィンドウを閉じます。
+</ol>
+<p><b>ヒント： </b>フォルダ内のブックマークではなく、パーソナルツールバーのブックマークをすばやく削除するには、ブックマークをマウスの右ボタンでクリックし、［削除］を選択します。</p>
+<p></p>
+
+
+<h4>パーソナルツールバーを並べ替える</h4>
+<p></p>
+<ol>
+<li>［ブックマーク］メニューから［ブックマークの管理］を選択します。
+<li>ブックマーク ウィンドウで、パーソナルツールバーフォルダをクリックします。
+<li>ブックマークまたはフォルダを選択し、新しい場所へ移動します。
+<li>項目を並べ替えたら、ブックマークウィンドウを閉じます。
+</ol>
+<p><b>注記： </b>［検索］や［ホーム ページ］などのパーソナルツールバーのボタンは並べ替えることはできませんが、<a href="#buttononoff">オン／オフを切り替える</a>ことはできます。</p>
+<p><b>ヒント： </b>パーソナルツールバーのブックマークをツールバー上で、またはフォルダ外にすばやく移動するには、ブックマークをクリックして、別の場所、またはフォルダにドラッグします。</p>
+<p>[&nbsp;<A HREF="#cust_toolbar">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="cust_statusbar"></a>
+<a name="toolbar:status_barIDX"></a>
+<a name="work_offlineSDX"></a>
+<a name="work_onlineSDX"></a>
+<h2>ステータス バー</h2>
+<p>ステータス バーは Mozilla ウィンドウの下部にあります。 ステータス バーには以下のものが表示されます。</p>
+<ul>
+<li> コンポーネント バー： コンポーネントを切り替えることができます。 詳しくは、「<a href="#cust_taskbar">コンポーネント バー</a>」を参照してください。</li>
+<li>ステータス情報： Web ページの URL や読み込みステータス情報などが表示されます。</li>
+<li>［Cookie 通知］アイコン <img src="chrome://cookie/content/taskbar-cookie.gif" alt="［Cookie 通知］アイコン">： Web サイトが Cookie を使用していることをユーザに通知します。詳しくは、「<a href="using_priv_help.html#cookie_notify">Cookie 通知</a>」を参照してください。</li>
+<li>オフライン作業 <img src="chrome://communicator/skin/icons/offline.gif" alt="［オフライン作業］アイコン"> またはオンライン作業 <img src="chrome://communicator/skin/icons/online.gif" alt="［オンライン作業］アイコン"> アイコン： アイコンをクリックすると、オフライン作業とオンライン作業を切り替えることができます。 オフライン作業にすると、Mozilla がインターネットにアクセスしなくなります。つまり、Web ページの画像を読み込んだり、自動的に電子メールを確認したりすることがなくなります。</li>
+<li>ロック アイコン（例： <img src="chrome://communicator/skin/icons/lock-insecure.gif" alt="ロック アイコン">）： ページの受信時にページのコンテンツ全体が暗号化されていたかどうかを表します。 詳しくは、「<a href="using_certs_help.html#using_certs_info">Web ページのセキュリティを確認する</a>」を参照してください。</li>
+</ul>
+<p> [&nbsp;<a href="#cust_toolbar">このセクションの最初に戻る</a>&nbsp;]
+
+
+
+
+<p>&nbsp;</p>
+<a name="cust_taskbar"></a>
+<a name="taskbarSDX"></a>
+<a name="toolbar:Component_BarSDX"></a>
+<h2>コンポーネントバー</h2>
+<p>Mozilla ウィンドウの下部にあるコンポーネントバーでは、ブラウザ、メール、インスタント メッセージなどのタスク間を切り替えることができます。</p> <IMG SRC="images/taskbar.gif" HSPACE="0" VSPACE="0" alt="コンポーネントバー">
+<p> [&nbsp;<A HREF="#cust_toolbar">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="toolbar:hiding_a_toolbarIDX"></a>
+<a name="cust_hide"></a>
+<h2>ツールバーを隠す</h2>
+<p>ツールバーを隠すには、以下の 2 つの方法があります。</p>
+<p>ツールバーを最小化するには： </p>
+<ul>
+<li>ツールバーの左にある小さな三角形をクリックします。ツールバーを表示するには、もう一度三角形をクリックします(注記： この方法でタスクバーを隠すことはできません）。
+</ul>
+<p>ツールバー（三角形を含む）を完全に隠すには： </p>
+<ol>
+<li>［表示］メニューを開きます。
+<li>［表示／隠す］を選択し、隠すツールバーのチェックマークを消します。
+</ol>
+<p>逆に隠したツールバーを表示するには、［表示］メニューから［ツールバーを表示］を選択し、表示するツールバーを選択します。</p>
+<p> [&nbsp;<A HREF="#cust_toolbar">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a NAME="cust_bkmk"></a>
+<hr>
+<h1>ブックマーク</h1>
+<p>&nbsp;</p>
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" Width=324>
+  <tr>
+    <td class="inthissection">
+<p>このセクションの内容： </p>
+<p><a href="#cust_bkmk_intro">ブックマークについて</a></p>
+<p><a href="#cust_bkmk_use">ブックマークを使う</a></p>
+<p><a href="#cust_bkmk_create">新しいブックマークを作成する
+        <!--  and Internet Shortcuts --> </a></p>
+<p><a href="#cust_bkmk_organize">ブックマークを並べ替える</a></p>
+<p><a href="#cust_bkmk_change">ブックマークを個別に変更する</a></p>
+<p><a href="#cust_bkmk_search">ブックマークを検索する</a></p>
+<p><a href="#cust_bkmk_multiple">ブックマーク リストをエクスポート／インポートする</a></p>
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<a name="favoritesSDX"></a>
+<a name="bookmarks:what_are_bookmarksIDX"></a>
+<a NAME="cust_bkmk_intro"></a>
+<h2>ブックマークについて</h2>
+<p>ブックマークとは、頻繁にアクセスするお気に入りの Web ページへのショートカットです。ブックマークを作成すると、長い URL（Web アドレス）を入力しなくても、表示したいページに直接接続できます。
+<p>ブックマークへは、［ブックマーク］メニュー、Sidebar の［ブックマーク］タブ、および［ブックマークの管理］ウィンドウからアクセスします。［ブックマーク］メニューに一覧表示される項目は、お気に入りの Web ページのブックマークを追加したり、ブックマークのリストを並べ替えたりして管理できます。</p>
+
+
+<p>&nbsp;</p>
+<a name="bookmarks:using_bookmarksIDX"></a>
+<a NAME="cust_bkmk_use"></a>
+<h2>ブックマークを使う</h2>
+<p>Mozilla では、いくつかのブックマークがあらかじめ使用できるようになっています。ブックマークを使うには： 
+<ol>
+<li>［ブックマーク］メニューを開きます。
+<li>リストからブックマークを選択します。
+</ol>
+<p> [&nbsp;<A HREF="#cust_bkmk">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="adding_favoritesSDX"></a>
+<a NAME="adding_links_in NavigatorSDX"></a>
+<a NAME="adding_bookmarksSDX"></a>
+<a NAME="File_BookmarkSDX"></a>
+<a NAME="creating_bookmarksSDX"></a>
+<a NAME="cust_bkmk_create"></a>
+<a name="bookmarks:creating_bookmarksIDX"></a>
+<h2>新しいブックマークを作成する</h2>
+<p>お気に入りの Web サイトにブックマークを付けると、そのサイトに簡単に戻れるようになります。</p>
+<p>現在のページにブックマークを付けるには、次の手順のいずれかを実行します。</p>
+<ul>
+<li>［ブックマーク］メニューにブックマークを追加するには、［ブックマーク］メニューを開き、［ブックマークの追加］を選択します。
+<li>［ブックマーク］メニューの特定のフォルダにブックマークを追加する、またはブックマークに特定の名前、あるいは URL を指定するには、次の手順に従います。
+    <ol>
+<li>［ブックマーク］メニューを開き、［ブックマークの整理］を選択します。次のいずれかのオプションを選択します。
+        <ul>
+<li><b>名前</b>： ブックマークに別の名前を付ける場合、その名前を入力します。</li>
+<li><b>URL</b>： ブックマークに別の URL を指定する場合、その URL を入力します。</li>
+<li><b>作成場所</b>： ブックマークを作成するフォルダを選択します。</li>
+<li><b>新しいフォルダ</b>： ブックマークを保存する新しいフォルダを作成する場合に使用します。</li>
+<li><b>標準設定を使用する</b>： 指定した新しいブックマーク フォルダにブックマークを保存する場合に使用します。</li>
+        </ul>
+      </li>
+<li>［OK］をクリックして、ブックマークを追加します。</li>
+    </ol>
+<p><b>ヒント</b>： 1 つのウィンドウに複数の Navigator タブが開いている場合に、［このタブ グループにブックマークを付ける］を選択すると、現在ウィンドウに表示されているすべてのタブを開くブックマークを追加できます。<br>
+</p>
+  </li>
+<li>パーソナルツールバーにブックマークを追加するには、ナビゲーションツールバーの隣にあるブックマークアイコン<img src="chrome://communicator/skin/bookmarks/bookmark-item.gif" alt="［ブックマーク］アイコンの画像">をパーソナルツールバーにドラッグします。ブックマークは、パーソナルツールバー上か、ツールバー上のフォルダに追加できます。
+<ul>
+<li>パーソナルツールバー上の［ブックマーク］フォルダ内</li>
+<li>パーソナルツールバー上に作成したブックマーク フォルダ内</li>
+<li>パーソナルツールバー（ブックマーク フォルダの右側）</li>
+</ul>
+<p>パーソナルツールバーにブックマークを追加するより詳細な情報は &quot;<a href="#Adding_Personal_Toolbar_bookmarks">パーソナルツールバーにブックマークを追加する</a>&quot; を参照してください。
+</li>
+</ul>
+<table summary="image table">
+<tr>
+<td><img src="images/personalbar.gif" alt="パーソナルツールバー"></td>
+</tr>
+<tr>
+<td> <div align="center"><b>パーソナルツールバー</b></div>
+</td>
+</tr>
+</table>
+<ul>
+
+<li>Sidebar の［ブックマーク］タブにブックマークを追加するには、Sidebar を開き、［ブックマーク］タブを選択して、ナビゲーションツールバーの隣にあるブックマーク アイコン<img src="chrome://communicator/skin/bookmarks/bookmark-item.gif" alt="［ブックマーク］アイコンの画像">を［ブックマーク］タブのブックマーク リストにドラッグします。 </li>
+</ul>
+<p><b>注記</b>：</p>
+<ul>
+<li>［表示］設定で［Web サイト アイコンを表示］をオンにしている場合は、［ブックマーク］アイコン <img src="chrome://communicator/skin/bookmarks/bookmark-item.gif" alt="［ブックマーク］アイコンの画像" > として、そのページ固有のアイコンが表示されることもあります。 この設定を変更する方法については、「<a href="cs_nav_prefs_appearance.html#appearance">表示設定 − 表示</a>」を参照してください。</li>
+<li>上記のいずれかの方法でブックマークを追加すると、Sidebar の［ブックマーク］タブ、［ブックマークの管理］ウィンドウ、および［ブックマーク］メニューからアクセスできます。</li>
+</ul>
+<p>[&nbsp;<A HREF="#cust_bkmk">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="bookmarks:organizing_bookmarksIDX"></a>
+<a name="delete_bookmarkSDX"></a>
+<a name="move_bookmarkSDX"></a>
+<a name="remove_bookmarkSDX"></a>
+<a NAME="cust_bkmk_organize"></a>
+<h2>ブックマークを並べ替える</h2>
+<p>ブックマークを並べ替えるには、［ブックマーク］メニューから［ブックマークの管理］を選択します。［ブックマークの管理］ウィンドウで次のいずれかを実行します。</p>
+<p><b>ヒント： </b>Sidebar の［ブックマーク］タブから［ブックマークの管理］ウィンドウを開くことができます。［ブックマーク］タブの上部にある［管理］をクリックします。</p>
+<p>フォルダ内のブックマークを表示するには： </p>
+<ul>
+<li>各フォルダの前にある三角形をクリックしてフォルダを開き、その内容を表示します。
+</ul>
+<p>ブックマークまたはフォルダをリスト内の別の場所に移動するには： </p>
+<ul>
+<li>ブックマークまたはフォルダを、新しい場所にドラッグします。ブックマークをフォルダに入れるには、クリックしてフォルダにドラッグします。
+</ul>
+
+
+<p>新しいフォルダまたは区切り線を作成するには： </p>
+<ul>
+<li>ブックマーク ウィンドウで、［新しいフォルダ］または［新しい区切り線］をクリックします。
+</ul>
+
+
+<p>ブックマークまたはフォルダをリストから削除するには： </p>
+<ol>
+<li>削除するブックマークまたはフォルダをクリックしてハイライトします。
+<li>キーボードの Delete キーを押すか、ブックマーク ウィンドウで［削除］をクリックします。
+</ol>
+
+
+<p>［ブックマーク］ウィンドウのブックマークを並べ替えるには：</p>
+<ul>
+<li>［表示］メニューを開き、リストを並べ替える方法（［名前で整列］や［URL で整列］など）を選択します。<br><b>ヒント</b>： 列を追加するには、［表示］メニューから［列を表示］を選択し、リストに表示する列ヘッダーを選択します。</li>
+</ul>
+<p><br></p>
+<h4>新しいブックマーク フォルダを指定する</h4>
+<p>通常、新しいブックマークを作成すると、作成されたブックマークはブックマーク リストの一番下に追加されます。 ブックマークをフォルダに入れる場合は、新しいブックマーク フォルダを指定できます。</p>
+<ol>
+<li>［ブックマーク］メニューから［ブックマークの管理］を選択します。
+<li>［ブックマーク］ウィンドウで、新しいブックマークを入れるフォルダを選択します。
+<li>［表示］メニューから［新しいブックマーク フォルダに設定］を選択します。
+</ol>
+<p> [&nbsp;<A HREF="#cust_bkmk">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="editing_bookmarksSDX"></a>
+<a name="bookmark_propertiesSDX"></a>
+<a name="bookmarks:changing_bookmarksIDX"></a>
+<a NAME="cust_bkmk_change"></a>
+<h2>ブックマークを個別に変更する</h2>
+<p>次の手順で、個々のブックマークの情報を変更できます。</p>
+<ol>
+<li>［ブックマーク］メニューから［ブックマークの管理］を選択します。</li>
+<li>ブックマーク ウィンドウで、ブックマークをクリックします。</li>
+<li>［プロパティ］をクリックします。</li>
+<li>［ブックマークのプロパティ］ダイアログ ボックスで、［情報］タブをクリックします。</li>
+</ol>
+<p>ブックマーク リストに表示されるブックマーク名の変更、説明の追加、キーワードの設定などを実行できます(［キーワード］フィールドにブックマークのキーワードを入力して、ブックマークを付けたサイトに行くことができます)。
+<p>Mozilla では、ブックマークを付けた Web サイトに変更があったかどうかをチェックするように設定することもできます。</p>
+<ol>
+<li>［ブックマーク］メニューから［ブックマークの管理］を選択します。</li>
+<li>ブックマーク ウィンドウで、ブックマークをクリックします。</li>
+<li>［プロパティ］をクリックします。</li>
+<li>［ブックマークのプロパティ］ダイアログ ボックスで［スケジュール］タブをクリックします。</li>
+<li>プルダウン リストを使用して、ブックマークを付けたページの変更をチェックする頻度を指定します。</li>
+<li>ブックマークを付けたページが変更された場合に通知を表示するには、通知方法オプションを選択します。</li>
+</ol>
+<p> [&nbsp;<A HREF="#cust_bkmk">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="bookmarks:searching_bookmarksIDX"></a>
+<a NAME="cust_bkmk_search"></a>
+<h2>ブックマークを検索する</h2>
+<p>ブックマークリストを検索するには： </p>
+<ol>
+<li>［ブックマーク］メニューから［ブックマークの管理］を選択します。
+<li>［ブックマーク］ウィンドウの［ツール］メニューから［ブックマークを検索］を選択します。［ブックマークを検索］ダイアログ ボックスが表示されます。</li>
+<li>ドロップダウン リストから検索オプションを選択し、［検索］をクリックします。検索条件に一致したブックマークが表示されます。 次の検索オプションのいずれかを選択します。
+<ul>
+<li>検索する語句の一部しか分らない場合には、［が右を含む］、［が右で始まる］、または［が右で終わる］を選択します。
+<li>検索する文字列が正確に分かっている場合には、［が右と同じ］を選択します。
+<li>特定のページを検索から除外するには、［が右と異なる］または［が右を含まない］を選択します。</li>
+<li>入力フィールドをクリックし、検索または除外するブックマークや履歴リスト項目の名前もしくは URL（Web アドレス）の一部または全部を入力します。</li>
+<li>［ブックマークにクエリを保存］チェックボックスをオンにすると、この検索を保存して後で使用することができます。 </li>
+</ul>
+<li>リスト内のブックマークをダブルクリックすると、対応するページが開きます。</li>
+</ol>
+<p><b>ヒント</b>： リストが見にくい場合は、［検索結果 − ブックマーク］ウィンドウのサイズを大きくしてみてください。 </p>
+<p> [&nbsp;<A HREF="#cust_bkmk">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="bookmarks:exporting_bookmarksIDX"></a>
+<a name="bookmarks:importing_bookmarksIDX"></a>
+<a NAME="cust_bkmk_multiple"></a>
+<h2>ブックマーク リストをエクスポート／インポートする</h2>
+<p>登録されているブックマークは、bookmarks.html という名前のファイルに保存されています。 このファイルのコピーをエクスポートし、指定のフォルダ内に保存することができます。 エクスポートしたファイルは、通常の HTML ファイルと同様に編集できます。</p>
+<ol>
+<li>［ブックマーク］メニューから［ブックマークの管理］を選択します。
+<li>［ブックマーク］ウィンドウの［ツール］メニューから［エクスポート］を選択します。
+<li>［ブックマーク ファイルをエクスポート］ダイアログ ボックスで、任意のフォルダを選択します。 bookmarks.html ファイルが指定したフォルダにコピーされます。
+<li>［保存］をクリックします。
+</ol>
+<p>この操作が Mozilla のブックマークの内容に影響することはありません。
+<p>別のソースからブックマーク ファイルをインポートすることもできます。 たとえば、以前のバージョンの Mozilla やその他のブラウザのブックマーク ファイル、あるいは友だちから送られてきたブックマーク ファイルをインポートできます。
+<p>インポートを開始する前に、インポートするブックマーク ファイルが HTML ファイルであることを確認してください。
+<ol>
+<li>［ブックマーク］メニューから［ブックマークの管理］を選択します。
+<li>［ブックマーク］ウィンドウの［ツール］メニューから［インポート］を選択します。
+<li>［ブックマーク ファイルをインポート］ダイアログ ボックスで、インポートするブックマーク ファイルを選択します。
+<li>［保存］をクリックします。
+</ol>
+<p>インポートしたブックマーク ファイルは新しいブックマークのグループとして扱われ、ブックマーク リストの一番下に追加されます。 新しいブックマーク フォルダを指定した場合は、インポートしたブックマークがそのフォルダに追加されます。
+<p><b>注記</b>： ブックマーク ファイルをインポートすると、そのファイルに含まれているブックマークおよびフォルダをインポートされるだけで、 2 つ目のブックマーク ファイルが作成されるわけではありません。
+<p>[&nbsp;<A HREF="#cust_bkmk">このセクションの最初に戻る</A>&nbsp;]
+
+
+
+<p>&nbsp;</p>
+<a NAME="cust_page"></a>
+<hr>
+<h1>Mozilla の起動方法を指定する</h1>
+<p>&nbsp;</p>
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" Width=324>
+  <tr>
+    <td class="inthissection">
+<p>このセクションの内容： </p>
+<p><a href="#cust_startpage">開始ページを指定する</a></p>
+<p><a href="#cust_home">ホーム ページを変更する</a></p>
+<p><a href="#cust_start">起動時に開くコンポーネントを指定する</a></p>
+    </td>
+  </tr>
+</table>
+
+
+<p>&nbsp;</p>
+<a name="start_pageSDX"></a>
+<a name="Navigator:start_pageIDX"></a>
+<a name="browser:start_pageIDX"></a>
+<a NAME="cust_startpage"></a>
+<h2>開始ページを指定する</h2>
+<p>ブラウザを起動する際に開くページを指定できます。</p>
+<ol>
+<li>［編集］メニューから［設定］を選択します。
+<li>［Navigator の起動時に開くページ］で、ブラウザの起動時に空白ページ、ホーム ページ、または最後にアクセスしたページのどれを自動的に開くかを指定できます。
+<p><b>注記</b>： ホームページを選択した場合、［URL］フィールドに URL を入力します。
+    </p>
+</ol>
+<p> [&nbsp;<A HREF="#cust_page">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="Navigator:changing_your_home_pageIDX"></a>
+<a name="browser:changing_your_home_pageIDX"></a>
+<a NAME="cust_home"></a>
+<h2>ホームページを変更する</h2>
+<p>ホームページとは、パーソナルツールバーの［ホーム］ボタンをクリックしたときに開くページです。ユーザ設定によっては、これが Mozilla の起動時に自動的に開くページになっていることもあります。</p>
+<p>ホームページを指定するには： </p>
+<ol>
+<li>［編集］メニューから［設定］を選択します。
+<li>［Navigator］カテゴリをクリックします。
+<li>［ホーム ページ］セクションで、次のいずれかを実行します。
+    <ul>
+<li>［URL］フィールドにホームページとして使用するページの URL（Web アドレス）を入力します。
+<li>［現在のページを使用する］をクリックして、現在ブラウザに表示されているページをホームページに設定します。
+<li>［ファイルの選択］をクリックして、コンピュータのハードドライブにあるファイルを選択します。
+    </ul>
+</ol>
+<p><b>ヒント</b>： ホーム ページをすばやく指定するには、ブックマークアイコンをナビゲーションツールバーから、パーソナルツールバーの［ホームページ］ボタンにドラッグします。</p>
+<p> [&nbsp;<A HREF="#cust_page">このセクションの最初に戻る</A>］ </p>
+
+
+<p>&nbsp;</p>
+<a name="browser:start_up_componentsIDX"></a>
+<a name="Netscape:componentsIDX"></a>
+<a NAME="cust_start"></a>
+<h2>起動時に開くコンポーネントを指定する</h2>
+<ol>
+<li>［編集］メニューから［設定］を選択します。
+<li>［表示］カテゴリをクリックします。
+<li>Mozilla を起動するたびに自動的に開くコンポーネントを選択します。
+</ol>
+<p> [&nbsp;<A HREF="#cust_page">このセクションの最初に戻る</A>］ </p>
+<p>&nbsp;</p>
+<p>
+<hr>
+<p><i>2002年 6月19日</i>
+
+<hr>
+<p><br></p>
+<p>Copyright &copy; 1994-2002 Mozilla Organization. </p>
+
+
+<div class="documentinfo">
+<p>Modified for Mozilla by mozilla-gumi &lt;http://mozilla.gr.jp&gt; participants.</p>
+
+</div>
+
+<!-- $Id: customize_help.html,v 1.1 2003/01/19 13:36:01 syamagu Exp $ -->
+</body>
+</html>

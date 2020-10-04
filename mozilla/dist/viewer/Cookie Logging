@@ -1,0 +1,1 @@
+ENV:NSPR_LOG_MODULES=cookie:4ENV:NSPR_LOG_FILE=cookie.log

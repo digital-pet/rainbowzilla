@@ -1,0 +1,1 @@
+<!ENTITY lHeader "ダウンロード"><!ENTITY downloadBehavior.label "ダウンロード開始時"><!ENTITY openDM.label "ダウンロードマネージャを開く"><!ENTITY openDM.accesskey "m"><!ENTITY openProgressDialog.label "プログレスダイアログを開く"><!ENTITY openProgressDialog.accesskey "p"><!ENTITY doNothing.label "何も開かない"><!ENTITY doNothing.accesskey "D">

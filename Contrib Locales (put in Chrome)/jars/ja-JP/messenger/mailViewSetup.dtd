@@ -1,0 +1,1 @@
+<!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder --><!ENTITY mailViewSetupTitle.label "メッセージ概観設定"><!ENTITY mailViewHeading.label "メッセージ概観名:"><!ENTITY mailViewHeading.accesskey "e"><!ENTITY searchTermCaption.label "この概観が選択されている場合、次に該当するメッセージのみを表示:">

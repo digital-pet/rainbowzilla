@@ -1,0 +1,1 @@
+<!ENTITY securityMenu.label "セキュリティ"><!ENTITY securityMenu.accesskey "U"><!ENTITY securityCertManagerCmd.label "証明書マネージャ"><!ENTITY securityCertManagerCmd.accesskey "C"><!ENTITY securityDeviceManagerCmd.label "デバイスマネージャ"><!ENTITY securityDeviceManagerCmd.accesskey "D"><!ENTITY securityCrlManagerCmd.label "CRL マネージャ"><!ENTITY securityCrlManagerCmd.accesskey "R">

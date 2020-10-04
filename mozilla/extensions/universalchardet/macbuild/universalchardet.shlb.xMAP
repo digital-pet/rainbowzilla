@@ -1,0 +1,941 @@
+File:    0	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsUniversalCharDetModule.cpp"
+File:    1	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsUniversalDetector.cpp"
+File:    2	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsMBCSGroupProber.cpp"
+File:    3	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsSBCSGroupProber.cpp"
+File:    4	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsMBCSSM.cpp"
+File:    5	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsUTF8Prober.cpp"
+File:    6	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsSJISProber.cpp"
+File:    7	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsEUCJPProber.cpp"
+File:    8	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:JpCntx.cpp"
+File:    9	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:CharDistribution.cpp"
+File:   10	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsGB2312Prober.cpp"
+File:   11	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsEUCKRProber.cpp"
+File:   12	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsBig5Prober.cpp"
+File:   13	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsEUCTWProber.cpp"
+File:   14	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsSBCharSetProber.cpp"
+File:   15	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsEscCharsetProber.cpp"
+File:   16	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:LangCyrillicModel.cpp"
+File:   17	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:LangGreekModel.cpp"
+File:   18	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:LangBulgarianModel.cpp"
+File:   20	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsEscSM.cpp"
+File:   21	"Bryan Too:mozsrc:mozilla:extensions:universalchardet:src:nsLatin1Prober.cpp"
+File:   25	"global_destructor_chain.c"
+File:   27	"runtime.c"
+File:   29	"StartupDropIn.c"
+File:   31	"Bryan Too:mozsrc:mozilla:lib:mac:NSStartup:NSStartup.c"
+
+Files that were not referenced:
+"LangHungarianModel.cpp"
+"InterfacesStubs"
+
+Code section, size = 30212 bytes
+000000	PR 	.__sinit									file = "*Linker-Generated*"
+000020	PR 	.nsUniversalXPCOMDetectorConstructor__FP11nsISupportsRC4nsIDPPv	file = "nsUniversalCharDetModule.cpp"
+000140	PR 	.nsUniversalXPCOMStringDetectorConstructor__FP11nsISupportsRC4nsIDPPv
+000260	PR 	.nsUniversalCharDetectorRegistrationProc__FP19nsIComponentManagerP7nsIFilePCcPCcPC21nsModuleComponentInfo
+0003C0	PR 	.__dt__30nsCOMPtr<18nsICategoryManager>Fv
+000450	PR 	.__dt__24nsGetServiceByContractIDFv
+0004F0	PR 	.do_GetService__FPCcPUi
+0005A0	PR 	.NSGetModule
+0005F0	PR 	.__ct__19nsUniversalDetectorFv				file = "nsUniversalDetector.cpp"
+000680	PR 	.__dt__19nsUniversalDetectorFv
+000770	PR 	.__dt__15nsCharSetProberFv
+0007F0	PR 	.Reset__19nsUniversalDetectorFv
+0008D0	PR 	.HandleData__19nsUniversalDetectorFPCcUi
+000D40	PR 	.DataEnd__19nsUniversalDetectorFv
+000E80	PR 	.__ct__24nsUniversalXPCOMDetectorFv
+000F20	PR 	.__dt__24nsUniversalXPCOMDetectorFv
+000FE0	PR 	.AddRef__24nsUniversalXPCOMDetectorFv
+001030	PR 	.Release__24nsUniversalXPCOMDetectorFv
+0010D0	PR 	.QueryInterface__24nsUniversalXPCOMDetectorFRC4nsIDPPv
+001250	PR 	.Init__24nsUniversalXPCOMDetectorFP27nsICharsetDetectionObserver
+001300	PR 	.DoIt__24nsUniversalXPCOMDetectorFPCcUiPi
+0013E0	PR 	.Done__24nsUniversalXPCOMDetectorFv
+001450	PR 	.Report__24nsUniversalXPCOMDetectorFPCc
+0014C0	PR 	.__ct__30nsUniversalXPCOMStringDetectorFv
+001560	PR 	.__dt__30nsUniversalXPCOMStringDetectorFv
+001600	PR 	.AddRef__30nsUniversalXPCOMStringDetectorFv
+001660	PR 	.Release__30nsUniversalXPCOMStringDetectorFv
+001710	PR 	.QueryInterface__30nsUniversalXPCOMStringDetectorFRC4nsIDPPv
+0018A0	PR 	.Report__30nsUniversalXPCOMStringDetectorFPCc
+0018F0	PR 	.DoIt__30nsUniversalXPCOMStringDetectorFPCcUiPPCcR20nsDetectionConfident
+0019F0	PR 	.@52@Release__24nsUniversalXPCOMDetectorFv
+001A00	PR 	.@52@AddRef__24nsUniversalXPCOMDetectorFv
+001A10	PR 	.@52@QueryInterface__24nsUniversalXPCOMDetectorFRC4nsIDPPv
+001A20	PR 	.@52@Done__24nsUniversalXPCOMDetectorFv
+001A30	PR 	.@52@DoIt__24nsUniversalXPCOMDetectorFPCcUiPi
+001A40	PR 	.@52@Init__24nsUniversalXPCOMDetectorFP27nsICharsetDetectionObserver
+001A50	PR 	.@52@Release__30nsUniversalXPCOMStringDetectorFv
+001A60	PR 	.@52@AddRef__30nsUniversalXPCOMStringDetectorFv
+001A70	PR 	.@52@QueryInterface__30nsUniversalXPCOMStringDetectorFRC4nsIDPPv
+001A80	PR 	.@52@DoIt__30nsUniversalXPCOMStringDetectorFPCcUiPPCcR20nsDetectionConfident
+001A90	PR 	.__ct__17nsMBCSGroupProberFv				file = "nsMBCSGroupProber.cpp"
+001E40	PR 	.__dt__17nsMBCSGroupProberFv
+001F10	PR 	.GetCharSetName__17nsMBCSGroupProberFv
+001FC0	PR 	.Reset__17nsMBCSGroupProberFv
+002070	PR 	.HandleData__17nsMBCSGroupProberFPCcUi
+002200	PR 	.GetConfidence__17nsMBCSGroupProberFv
+0022F0	PR 	.GetState__17nsMBCSGroupProberFv
+002330	PR 	.SetOpion__17nsMBCSGroupProberFv
+002370	PR 	.__ct__17nsSBCSGroupProberFv				file = "nsSBCSGroupProber.cpp"
+002630	PR 	.__dt__17nsSBCSGroupProberFv
+002700	PR 	.__dt__25nsSingleByteCharSetProberFv
+002790	PR 	.GetCharSetName__17nsSBCSGroupProberFv
+002840	PR 	.GetCharSetName__25nsSingleByteCharSetProberFv
+002890	PR 	.Reset__17nsSBCSGroupProberFv
+002930	PR 	.FilterWithoutEnglishLetters__17nsSBCSGroupProberFPCcUiPPcRUi
+002A90	PR 	.HandleData__17nsSBCSGroupProberFPCcUi
+002BC0	PR 	.GetConfidence__17nsSBCSGroupProberFv
+002CB0	PR 	.GetState__17nsSBCSGroupProberFv
+002CF0	PR 	.SetOpion__17nsSBCSGroupProberFv
+002D30	PR 	.Reset__12nsUTF8ProberFv					file = "nsUTF8Prober.cpp"
+002D80	PR 	.HandleData__12nsUTF8ProberFPCcUi
+002F40	PR 	.GetConfidence__12nsUTF8ProberFv
+002FB0	PR 	.__dt__12nsUTF8ProberFv
+003050	PR 	.GetCharSetName__12nsUTF8ProberFv
+003090	PR 	.GetState__12nsUTF8ProberFv
+0030D0	PR 	.SetOpion__12nsUTF8ProberFv
+003110	PR 	.Reset__12nsSJISProberFv					file = "nsSJISProber.cpp"
+003190	PR 	.HandleData__12nsSJISProberFPCcUi
+003580	PR 	.GetOrder__24CharDistributionAnalysisFPCc
+0035D0	PR 	.GetConfidence__12nsSJISProberFv
+003660	PR 	.__dt__12nsSJISProberFv
+003700	PR 	.GetCharSetName__12nsSJISProberFv
+003740	PR 	.GetState__12nsSJISProberFv
+003780	PR 	.SetOpion__12nsSJISProberFv
+0037C0	PR 	.Reset__13nsEUCJPProberFv					file = "nsEUCJPProber.cpp"
+003840	PR 	.HandleData__13nsEUCJPProberFPCcUi
+003C20	PR 	.GetConfidence__13nsEUCJPProberFv
+003CB0	PR 	.__dt__13nsEUCJPProberFv
+003D50	PR 	.GetCharSetName__13nsEUCJPProberFv
+003D90	PR 	.GetState__13nsEUCJPProberFv
+003DD0	PR 	.SetOpion__13nsEUCJPProberFv
+003E10	PR 	.Reset__23JapaneseContextAnalysisFv			file = "JpCntx.cpp"
+003E90	PR 	.GetConfidence__23JapaneseContextAnalysisFv
+003F20	PR 	.GetOrder__19SJISContextAnalysisFPCcPUi
+003FE0	PR 	.GetOrder__20EUCJPContextAnalysisFPCcPUi
+0040A0	PR 	.GetOrder__20EUCJPContextAnalysisFPCc
+004110	PR 	.GetOrder__19SJISContextAnalysisFPCc
+004180	PR 	.GetConfidence__24CharDistributionAnalysisFv	file = "CharDistribution.cpp"
+004230	PR 	.__ct__25EUCTWDistributionAnalysisFv
+0042B0	PR 	.__ct__25EUCKRDistributionAnalysisFv
+004330	PR 	.__ct__26GB2312DistributionAnalysisFv
+0043B0	PR 	.__ct__24Big5DistributionAnalysisFv
+004430	PR 	.__ct__24SJISDistributionAnalysisFv
+0044B0	PR 	.__ct__25EUCJPDistributionAnalysisFv
+004530	PR 	.GetOrder__25EUCJPDistributionAnalysisFPCc
+0045A0	PR 	.GetOrder__24SJISDistributionAnalysisFPCc
+004650	PR 	.GetOrder__24Big5DistributionAnalysisFPCc
+0046F0	PR 	.GetOrder__26GB2312DistributionAnalysisFPCc
+004770	PR 	.GetOrder__25EUCKRDistributionAnalysisFPCc
+0047E0	PR 	.GetOrder__25EUCTWDistributionAnalysisFPCc
+004850	PR 	.Reset__15nsGB18030ProberFv					file = "nsGB2312Prober.cpp"
+0048A0	PR 	.HandleData__15nsGB18030ProberFPCcUi
+004B60	PR 	.GetConfidence__15nsGB18030ProberFv
+004BC0	PR 	.__dt__15nsGB18030ProberFv
+004C60	PR 	.GetCharSetName__15nsGB18030ProberFv
+004CA0	PR 	.GetState__15nsGB18030ProberFv
+004CE0	PR 	.SetOpion__15nsGB18030ProberFv
+004D20	PR 	.Reset__13nsEUCKRProberFv					file = "nsEUCKRProber.cpp"
+004D70	PR 	.HandleData__13nsEUCKRProberFPCcUi
+005020	PR 	.GetConfidence__13nsEUCKRProberFv
+005080	PR 	.__dt__13nsEUCKRProberFv
+005120	PR 	.GetCharSetName__13nsEUCKRProberFv
+005160	PR 	.GetState__13nsEUCKRProberFv
+0051A0	PR 	.SetOpion__13nsEUCKRProberFv
+0051E0	PR 	.Reset__12nsBig5ProberFv					file = "nsBig5Prober.cpp"
+005230	PR 	.HandleData__12nsBig5ProberFPCcUi
+0054E0	PR 	.GetConfidence__12nsBig5ProberFv
+005540	PR 	.__dt__12nsBig5ProberFv
+0055E0	PR 	.GetCharSetName__12nsBig5ProberFv
+005620	PR 	.GetState__12nsBig5ProberFv
+005660	PR 	.SetOpion__12nsBig5ProberFv
+0056A0	PR 	.Reset__13nsEUCTWProberFv					file = "nsEUCTWProber.cpp"
+0056F0	PR 	.HandleData__13nsEUCTWProberFPCcUi
+0059A0	PR 	.GetConfidence__13nsEUCTWProberFv
+005A00	PR 	.__dt__13nsEUCTWProberFv
+005AA0	PR 	.GetCharSetName__13nsEUCTWProberFv
+005AE0	PR 	.GetState__13nsEUCTWProberFv
+005B20	PR 	.SetOpion__13nsEUCTWProberFv
+005B60	PR 	.HandleData__25nsSingleByteCharSetProberFPCcUi	file = "nsSBCharSetProber.cpp"
+005CC0	PR 	.Reset__25nsSingleByteCharSetProberFv
+005D40	PR 	.GetConfidence__25nsSingleByteCharSetProberFv
+005E20	PR 	.GetState__25nsSingleByteCharSetProberFv
+005E70	PR 	.SetOpion__25nsSingleByteCharSetProberFv
+005EB0	PR 	.__ct__18nsEscCharSetProberFv				file = "nsEscCharsetProber.cpp"
+005FD0	PR 	.__dt__18nsEscCharSetProberFv
+006090	PR 	.Reset__18nsEscCharSetProberFv
+006100	PR 	.HandleData__18nsEscCharSetProberFPCcUi
+0062E0	PR 	.GetCharSetName__18nsEscCharSetProberFv
+006330	PR 	.GetState__18nsEscCharSetProberFv
+006370	PR 	.GetConfidence__18nsEscCharSetProberFv
+0063B0	PR 	.SetOpion__18nsEscCharSetProberFv
+0063F0	PR 	.Reset__14nsLatin1ProberFv					file = "nsLatin1Prober.cpp"
+006450	PR 	.FilterWithEnglishLetters__14nsLatin1ProberFPCcUiPPcRUi
+0065C0	PR 	.HandleData__14nsLatin1ProberFPCcUi
+0066E0	PR 	.GetConfidence__14nsLatin1ProberFv
+0067E0	PR 	.__dt__14nsLatin1ProberFv
+006870	PR 	.GetCharSetName__14nsLatin1ProberFv
+0068B0	PR 	.GetState__14nsLatin1ProberFv
+0068F0	PR 	.SetOpion__14nsLatin1ProberFv
+006930	PR 	.__destroy_global_chain						file = "global_destructor_chain.c"
+006990	PR 	.__RTOC										file = "StartupDropIn.c"
+0069A0	PR 	.__initialize
+006A00	PR 	.__terminate
+006A30	PR 	.__NSInitialize								file = "NSStartup.c"
+006AB0	PR 	.__NSTerminate
+006B10	GL 	.GC_register_fragment						file = "*Linker-Generated*"
+006B28	GL 	.__register_fragment
+006B40	GL 	.__unregister_fragment
+006B58	GL 	.GC_unregister_fragment
+006B70	GL 	.__nw__FUl
+006B88	GL 	.__dl__FPv
+006BA0	GL 	.PR_Malloc
+006BB8	GL 	.PR_Free
+006BD0	GL 	.assign_from_helper__13nsCOMPtr_baseFRC15nsCOMPtr_helperRC4nsID
+006BE8	GL 	.__dt__13nsCOMPtr_baseFv
+006C00	GL 	.NS_NewGenericModule2__FP12nsModuleInfoPP9nsIModule
+006C20	GL 	.__ptr_glue									file = "runtime.c"
+006C38	RO 	iid_NS_ISUPPORTS_IID$localstatic3$.GetIID__28nsCOMTypeInfo<11nsISupports>Fv	file = "nsUniversalCharDetModule.cpp"
+006C48	RO 	iid$localstatic3$.GetIID__18nsICategoryManagerFv
+006C58	RO 	iid$localstatic3$.GetIID__17nsIServiceManagerFv
+006C68	RO 	iid$localstatic3$.GetIID__18nsICharsetDetectorFv
+006C78	RO 	iid$localstatic3$.GetIID__24nsIStringCharsetDetectorFv
+006C88	RO 	@860
+006C98	RO 	@stringBase0
+006DC4	RO 	@817										file = "nsUniversalDetector.cpp"
+006DE4	RO 	@819
+006DF0	RO 	@820
+006E0C	RO 	@822
+006E20	RO 	@823
+006E3C	RO 	@825
+006E50	RO 	@827
+006E60	RO 	@stringBase0
+006EB8	RO 	@272										file = "nsMBCSGroupProber.cpp"
+006ECC	RO 	@274
+006EDC	RO 	@277
+006EF4	RO 	@205										file = "nsSBCSGroupProber.cpp"
+006F08	RO 	@207
+006F18	RO 	@stringBase0								file = "nsMBCSSM.cpp"
+006F60	RO 	@76											file = "nsUTF8Prober.cpp"
+006F70	RO 	@78
+006F80	RO 	@stringBase0
+006F88	RO 	@155										file = "nsSJISProber.cpp"
+006F98	RO 	@157
+006FA8	RO 	@stringBase0
+006FB4	RO 	@155										file = "nsEUCJPProber.cpp"
+006FC4	RO 	@157
+006FD4	RO 	@stringBase0
+006FDC	RO 	@92											file = "JpCntx.cpp"
+006FF4	RO 	@94
+00700C	RO 	@98
+007020	RO 	@94											file = "CharDistribution.cpp"
+00703C	RO 	@96
+007058	RO 	@100
+007074	RO 	@110
+007090	RO 	@117
+0070AC	RO 	@123
+0070C8	RO 	@128
+0070E4	RO 	@120										file = "nsGB2312Prober.cpp"
+0070F4	RO 	@122
+007104	RO 	@stringBase0
+00710C	RO 	@120										file = "nsEUCKRProber.cpp"
+00711C	RO 	@122
+00712C	RO 	@stringBase0
+007134	RO 	@120										file = "nsBig5Prober.cpp"
+007144	RO 	@122
+007154	RO 	@stringBase0
+00715C	RO 	@120										file = "nsEUCTWProber.cpp"
+00716C	RO 	@122
+00717C	RO 	@stringBase0
+007188	RO 	@66											file = "nsSBCharSetProber.cpp"
+0071A4	RO 	@68
+0071B4	RO 	@107										file = "nsEscCharsetProber.cpp"
+0071C8	RO 	@109
+0071D8	RO 	@stringBase0								file = "LangCyrillicModel.cpp"
+007214	RO 	@stringBase0								file = "LangGreekModel.cpp"
+00722C	RO 	@stringBase0								file = "LangBulgarianModel.cpp"
+007244	RO 	@stringBase0								file = "nsEscSM.cpp"
+007274	RO 	@93											file = "nsLatin1Prober.cpp"
+007284	RO 	@95
+007294	RO 	@stringBase0
+0072A4	TI 	@781										file = "nsUniversalCharDetModule.cpp"
+0072B0	TI 	@801
+0072BC	TI 	@831
+0072C8	TI 	@834
+0072D4	TI 	@839
+0072E0	TI 	@851
+0072EC	TI 	@859
+0072F8	TI 	@424										file = "nsUniversalDetector.cpp"
+007304	TI 	@427
+007310	TI 	@443
+00731C	TI 	@552
+007328	TI 	@576
+007334	TI 	@584
+007340	TI 	@598
+00734C	TI 	@621
+007358	TI 	@674
+007364	TI 	@690
+007370	TI 	@703
+00737C	TI 	@708
+007388	TI 	@713
+007394	TI 	@721
+0073A0	TI 	@728
+0073AC	TI 	@751
+0073B8	TI 	@804
+0073C4	TI 	@816
+0073D0	TI 	@173										file = "nsMBCSGroupProber.cpp"
+0073DC	TI 	@193
+0073E8	TI 	@202
+0073F4	TI 	@213
+007400	TI 	@249
+00740C	TI 	@271
+007418	TI 	@71											file = "nsSBCSGroupProber.cpp"
+007424	TI 	@102
+007430	TI 	@107
+00743C	TI 	@116
+007448	TI 	@128
+007454	TI 	@158
+007460	TI 	@182
+00746C	TI 	@204
+007478	TI 	@58											file = "nsUTF8Prober.cpp"
+007484	TI 	@83
+007490	TI 	@74											file = "nsSJISProber.cpp"
+00749C	TI 	@145
+0074A8	TI 	@154
+0074B4	TI 	@162
+0074C0	TI 	@74											file = "nsEUCJPProber.cpp"
+0074CC	TI 	@145
+0074D8	TI 	@154
+0074E4	TI 	@162
+0074F0	TI 	@113										file = "nsGB2312Prober.cpp"
+0074FC	TI 	@119
+007508	TI 	@127
+007514	TI 	@113										file = "nsEUCKRProber.cpp"
+007520	TI 	@119
+00752C	TI 	@127
+007538	TI 	@113										file = "nsBig5Prober.cpp"
+007544	TI 	@119
+007550	TI 	@127
+00755C	TI 	@113										file = "nsEUCTWProber.cpp"
+007568	TI 	@119
+007574	TI 	@127
+007580	TI 	@38											file = "nsSBCharSetProber.cpp"
+00758C	TI 	@35											file = "nsEscCharsetProber.cpp"
+007598	TI 	@52
+0075A4	TI 	@51											file = "nsLatin1Prober.cpp"
+0075B0	TI 	@70
+0075BC	TI 	@100
+0075C8	TI 	@13											file = "global_destructor_chain.c"
+0075D4	TI 	@337										file = "StartupDropIn.c"
+0075E0	TI 	@342
+0075EC	TI 	@339										file = "NSStartup.c"
+0075F8	TI 	@344
+
+Data section, size = 71608 bytes (TOC anchor = 008000)
+000000	TC 	PR_Malloc									file = "*Linker-Generated*"
+000004	TC 	PR_Free
+000008	TC 	GC_unregister_fragment
+00000C	TC 	__nw__FUl
+000010	TC 	GC_register_fragment
+000014	TC 	__dl__FPv
+000018	TC 	__register_fragment
+00001C	TC 	__unregister_fragment
+000020	TC 	assign_from_helper__13nsCOMPtr_baseFRC15nsCOMPtr_helperRC4nsID
+000024	TC 	NS_NewGenericModule2__FP12nsModuleInfoPP9nsIModule
+000028	TC 	__dt__13nsCOMPtr_baseFv
+00002C	TC 	gModuleInfo
+000030	TC 	iid$localstatic3$.GetIID__17nsIServiceManagerFv
+000034	TC 	__vt__16nsQueryInterface
+000038	TC 	__vt__15nsCOMPtr_helper
+00003C	TC 	__vt__24nsGetServiceByContractID
+000040	TC 	iid$localstatic3$.GetIID__18nsICategoryManagerFv
+000044	TC 	iid$localstatic3$.GetIID__24nsIStringCharsetDetectorFv
+000048	TC 	__vt__30nsUniversalXPCOMStringDetector
+00004C	TC 	__vt__24nsIStringCharsetDetector
+000050	TC 	iid_NS_ISUPPORTS_IID$localstatic3$.GetIID__28nsCOMTypeInfo<11nsISupports>Fv
+000054	TC 	iid$localstatic3$.GetIID__18nsICharsetDetectorFv
+000058	TC 	__vt__24nsUniversalXPCOMDetector
+00005C	TC 	__vt__18nsICharsetDetector
+000060	TC 	__vt__11nsISupports
+000064	TC 	__vt__14nsLatin1Prober
+000068	TC 	__vt__15nsCharSetProber
+00006C	TC 	__vt__19nsUniversalDetector
+000070	TC 	EUCTWSMModel
+000074	TC 	__vt__13nsEUCTWProber
+000078	TC 	Big5SMModel
+00007C	TC 	__vt__12nsBig5Prober
+000080	TC 	EUCKRSMModel
+000084	TC 	__vt__13nsEUCKRProber
+000088	TC 	GB18030SMModel
+00008C	TC 	__vt__15nsGB18030Prober
+000090	TC 	EUCJPSMModel
+000094	TC 	__vt__20EUCJPContextAnalysis
+000098	TC 	__vt__13nsEUCJPProber
+00009C	TC 	SJISSMModel
+0000A0	TC 	__vt__19SJISContextAnalysis
+0000A4	TC 	__vt__23JapaneseContextAnalysis
+0000A8	TC 	__vt__12nsSJISProber
+0000AC	TC 	UTF8SMModel
+0000B0	TC 	__vt__12nsUTF8Prober
+0000B4	TC 	__vt__17nsMBCSGroupProber
+0000B8	TC 	Win1251BulgarianModel
+0000BC	TC 	Latin5BulgarianModel
+0000C0	TC 	Win1253Model
+0000C4	TC 	Latin7Model
+0000C8	TC 	Ibm855Model
+0000CC	TC 	Ibm866Model
+0000D0	TC 	MacCyrillicModel
+0000D4	TC 	Latin5Model
+0000D8	TC 	Koi8rModel
+0000DC	TC 	Win1251Model
+0000E0	TC 	__vt__25nsSingleByteCharSetProber
+0000E4	TC 	__vt__17nsSBCSGroupProber
+0000E8	TC 	jp2CharContext
+0000EC	TC 	__vt__25EUCJPDistributionAnalysis
+0000F0	TC 	__vt__24SJISDistributionAnalysis
+0000F4	TC 	__vt__24Big5DistributionAnalysis
+0000F8	TC 	__vt__26GB2312DistributionAnalysis
+0000FC	TC 	__vt__25EUCKRDistributionAnalysis
+000100	TC 	__vt__25EUCTWDistributionAnalysis
+000104	TC 	__vt__24CharDistributionAnalysis
+000108	TC 	ISO2022KRSMModel
+00010C	TC 	ISO2022JPSMModel
+000110	TC 	ISO2022CNSMModel
+000114	TC 	HZSMModel
+000118	TC 	__vt__18nsEscCharSetProber
+00011C	TC 	__global_destructor_chain
+000120	TC 	__exception_table_end__
+000124	TC 	__exception_table_start__
+000128	TC 	__data_end__
+00012C	TC 	__data_start__
+000130	TC 	__code_end__
+000134	TC 	__code_start__
+000138	TC 	@stringBase0								file = "nsUniversalCharDetModule.cpp"
+00013C	TC 	@stringBase0								file = "nsUniversalDetector.cpp"
+000140	TC 	@stringBase0								file = "nsUTF8Prober.cpp"
+000144	TC 	@stringBase0								file = "nsSJISProber.cpp"
+000148	TC 	@stringBase0								file = "nsEUCJPProber.cpp"
+00014C	TC 	@56											file = "JpCntx.cpp"
+000150	TC 	JISCharToFreqOrder							file = "CharDistribution.cpp"
+000154	TC 	Big5CharToFreqOrder
+000158	TC 	GB2312CharToFreqOrder
+00015C	TC 	EUCKRCharToFreqOrder
+000160	TC 	EUCTWCharToFreqOrder
+000164	TC 	@52
+000168	TC 	@stringBase0								file = "nsGB2312Prober.cpp"
+00016C	TC 	@stringBase0								file = "nsEUCKRProber.cpp"
+000170	TC 	@stringBase0								file = "nsBig5Prober.cpp"
+000174	TC 	@stringBase0								file = "nsEUCTWProber.cpp"
+000178	TC 	@62											file = "nsSBCharSetProber.cpp"
+00017C	TC 	@stringBase0								file = "nsLatin1Prober.cpp"
+000180	TC 	@89
+000184	TC 	Latin1ClassModel
+000188	TC 	Latin1_CharToClass
+00018C	TD 	@575										file = "nsUniversalDetector.cpp"
+000190	TD 	@574
+000194	TD 	@270										file = "nsMBCSGroupProber.cpp"
+000198	TD 	@269
+00019C	TD 	@268
+0001A0	TD 	@203										file = "nsSBCSGroupProber.cpp"
+0001A4	TD 	@202
+0001A8	TD 	@201
+0001AC	TD 	@75											file = "nsUTF8Prober.cpp"
+0001B0	TD 	@74
+0001B4	TD 	@73
+0001B8	TD 	@57
+0001BC	TD 	@144										file = "nsSJISProber.cpp"
+0001C0	TD 	@144										file = "nsEUCJPProber.cpp"
+0001C4	TD 	@56											file = "JpCntx.cpp"
+0001CC	TD 	@54
+0001D0	TD 	@87											file = "CharDistribution.cpp"
+0001D4	TD 	@74
+0001D8	TD 	@67
+0001DC	TD 	@60
+0001E0	TD 	@52
+0001E8	TD 	@50
+0001EC	TD 	@49
+0001F0	TD 	@48
+0001F4	TD 	@112										file = "nsGB2312Prober.cpp"
+0001F8	TD 	@112										file = "nsEUCKRProber.cpp"
+0001FC	TD 	@112										file = "nsBig5Prober.cpp"
+000200	TD 	@112										file = "nsEUCTWProber.cpp"
+000204	TD 	@62											file = "nsSBCharSetProber.cpp"
+00020C	TD 	@60
+000210	TD 	@59
+000214	TD 	@58
+000218	TD 	@37
+00021C	TD 	@36
+000220	TD 	@113										file = "nsEscCharsetProber.cpp"
+000224	TD 	@89											file = "nsLatin1Prober.cpp"
+00022C	TD 	@87
+000230	TD 	@86
+000234	TD 	@85
+000238	TD 	@84
+00023C	TD 	fragmentID									file = "StartupDropIn.c"
+000240	DS 	NSGetModule									file = "nsUniversalCharDetModule.cpp"
+000248	DS 	nsUniversalXPCOMDetectorConstructor__FP11nsISupportsRC4nsIDPPv
+000250	DS 	nsUniversalCharDetectorRegistrationProc__FP19nsIComponentManagerP7nsIFilePCcPCcPC21nsModuleComponentInfo
+000258	DS 	nsUniversalXPCOMStringDetectorConstructor__FP11nsISupportsRC4nsIDPPv
+000260	DS 	__dt__30nsCOMPtr<18nsICategoryManager>Fv
+000268	DS 	__dt__24nsGetServiceByContractIDFv
+000270	DS 	@52@Init__24nsUniversalXPCOMDetectorFP27nsICharsetDetectionObserver	file = "nsUniversalDetector.cpp"
+000278	DS 	@52@DoIt__24nsUniversalXPCOMDetectorFPCcUiPi
+000280	DS 	@52@Done__24nsUniversalXPCOMDetectorFv
+000288	DS 	@52@QueryInterface__24nsUniversalXPCOMDetectorFRC4nsIDPPv
+000290	DS 	@52@AddRef__24nsUniversalXPCOMDetectorFv
+000298	DS 	@52@Release__24nsUniversalXPCOMDetectorFv
+0002A0	DS 	@52@DoIt__30nsUniversalXPCOMStringDetectorFPCcUiPPCcR20nsDetectionConfident
+0002A8	DS 	@52@QueryInterface__30nsUniversalXPCOMStringDetectorFRC4nsIDPPv
+0002B0	DS 	@52@AddRef__30nsUniversalXPCOMStringDetectorFv
+0002B8	DS 	@52@Release__30nsUniversalXPCOMStringDetectorFv
+0002C0	DS 	DoIt__30nsUniversalXPCOMStringDetectorFPCcUiPPCcR20nsDetectionConfident
+0002C8	DS 	Report__30nsUniversalXPCOMStringDetectorFPCc
+0002D0	DS 	QueryInterface__30nsUniversalXPCOMStringDetectorFRC4nsIDPPv
+0002D8	DS 	Release__30nsUniversalXPCOMStringDetectorFv
+0002E0	DS 	AddRef__30nsUniversalXPCOMStringDetectorFv
+0002E8	DS 	__dt__30nsUniversalXPCOMStringDetectorFv
+0002F0	DS 	Report__24nsUniversalXPCOMDetectorFPCc
+0002F8	DS 	Done__24nsUniversalXPCOMDetectorFv
+000300	DS 	DoIt__24nsUniversalXPCOMDetectorFPCcUiPi
+000308	DS 	Init__24nsUniversalXPCOMDetectorFP27nsICharsetDetectionObserver
+000310	DS 	QueryInterface__24nsUniversalXPCOMDetectorFRC4nsIDPPv
+000318	DS 	Release__24nsUniversalXPCOMDetectorFv
+000320	DS 	AddRef__24nsUniversalXPCOMDetectorFv
+000328	DS 	__dt__24nsUniversalXPCOMDetectorFv
+000330	DS 	DataEnd__19nsUniversalDetectorFv
+000338	DS 	HandleData__19nsUniversalDetectorFPCcUi
+000340	DS 	Reset__19nsUniversalDetectorFv
+000348	DS 	__dt__15nsCharSetProberFv
+000350	DS 	__dt__19nsUniversalDetectorFv
+000358	DS 	GetState__17nsMBCSGroupProberFv				file = "nsMBCSGroupProber.cpp"
+000360	DS 	SetOpion__17nsMBCSGroupProberFv
+000368	DS 	GetConfidence__17nsMBCSGroupProberFv
+000370	DS 	HandleData__17nsMBCSGroupProberFPCcUi
+000378	DS 	Reset__17nsMBCSGroupProberFv
+000380	DS 	GetCharSetName__17nsMBCSGroupProberFv
+000388	DS 	__dt__17nsMBCSGroupProberFv
+000390	DS 	GetState__17nsSBCSGroupProberFv				file = "nsSBCSGroupProber.cpp"
+000398	DS 	SetOpion__17nsSBCSGroupProberFv
+0003A0	DS 	GetConfidence__17nsSBCSGroupProberFv
+0003A8	DS 	HandleData__17nsSBCSGroupProberFPCcUi
+0003B0	DS 	Reset__17nsSBCSGroupProberFv
+0003B8	DS 	GetCharSetName__25nsSingleByteCharSetProberFv
+0003C0	DS 	GetCharSetName__17nsSBCSGroupProberFv
+0003C8	DS 	__dt__25nsSingleByteCharSetProberFv
+0003D0	DS 	__dt__17nsSBCSGroupProberFv
+0003D8	DS 	__dt__12nsUTF8ProberFv						file = "nsUTF8Prober.cpp"
+0003E0	DS 	GetCharSetName__12nsUTF8ProberFv
+0003E8	DS 	GetState__12nsUTF8ProberFv
+0003F0	DS 	SetOpion__12nsUTF8ProberFv
+0003F8	DS 	GetConfidence__12nsUTF8ProberFv
+000400	DS 	HandleData__12nsUTF8ProberFPCcUi
+000408	DS 	Reset__12nsUTF8ProberFv
+000410	DS 	__dt__12nsSJISProberFv						file = "nsSJISProber.cpp"
+000418	DS 	GetCharSetName__12nsSJISProberFv
+000420	DS 	GetState__12nsSJISProberFv
+000428	DS 	SetOpion__12nsSJISProberFv
+000430	DS 	GetConfidence__12nsSJISProberFv
+000438	DS 	GetOrder__24CharDistributionAnalysisFPCc
+000440	DS 	HandleData__12nsSJISProberFPCcUi
+000448	DS 	Reset__12nsSJISProberFv
+000450	DS 	__dt__13nsEUCJPProberFv						file = "nsEUCJPProber.cpp"
+000458	DS 	GetCharSetName__13nsEUCJPProberFv
+000460	DS 	GetState__13nsEUCJPProberFv
+000468	DS 	SetOpion__13nsEUCJPProberFv
+000470	DS 	GetConfidence__13nsEUCJPProberFv
+000478	DS 	HandleData__13nsEUCJPProberFPCcUi
+000480	DS 	Reset__13nsEUCJPProberFv
+000488	DS 	GetOrder__19SJISContextAnalysisFPCc			file = "JpCntx.cpp"
+000490	DS 	GetOrder__20EUCJPContextAnalysisFPCc
+000498	DS 	GetOrder__20EUCJPContextAnalysisFPCcPUi
+0004A0	DS 	GetOrder__19SJISContextAnalysisFPCcPUi
+0004A8	DS 	GetOrder__25EUCTWDistributionAnalysisFPCc	file = "CharDistribution.cpp"
+0004B0	DS 	GetOrder__25EUCKRDistributionAnalysisFPCc
+0004B8	DS 	GetOrder__26GB2312DistributionAnalysisFPCc
+0004C0	DS 	GetOrder__24Big5DistributionAnalysisFPCc
+0004C8	DS 	GetOrder__24SJISDistributionAnalysisFPCc
+0004D0	DS 	GetOrder__25EUCJPDistributionAnalysisFPCc
+0004D8	DS 	__dt__15nsGB18030ProberFv					file = "nsGB2312Prober.cpp"
+0004E0	DS 	GetCharSetName__15nsGB18030ProberFv
+0004E8	DS 	GetState__15nsGB18030ProberFv
+0004F0	DS 	SetOpion__15nsGB18030ProberFv
+0004F8	DS 	GetConfidence__15nsGB18030ProberFv
+000500	DS 	HandleData__15nsGB18030ProberFPCcUi
+000508	DS 	Reset__15nsGB18030ProberFv
+000510	DS 	__dt__13nsEUCKRProberFv						file = "nsEUCKRProber.cpp"
+000518	DS 	GetCharSetName__13nsEUCKRProberFv
+000520	DS 	GetState__13nsEUCKRProberFv
+000528	DS 	SetOpion__13nsEUCKRProberFv
+000530	DS 	GetConfidence__13nsEUCKRProberFv
+000538	DS 	HandleData__13nsEUCKRProberFPCcUi
+000540	DS 	Reset__13nsEUCKRProberFv
+000548	DS 	__dt__12nsBig5ProberFv						file = "nsBig5Prober.cpp"
+000550	DS 	GetCharSetName__12nsBig5ProberFv
+000558	DS 	GetState__12nsBig5ProberFv
+000560	DS 	SetOpion__12nsBig5ProberFv
+000568	DS 	GetConfidence__12nsBig5ProberFv
+000570	DS 	HandleData__12nsBig5ProberFPCcUi
+000578	DS 	Reset__12nsBig5ProberFv
+000580	DS 	__dt__13nsEUCTWProberFv						file = "nsEUCTWProber.cpp"
+000588	DS 	GetCharSetName__13nsEUCTWProberFv
+000590	DS 	GetState__13nsEUCTWProberFv
+000598	DS 	SetOpion__13nsEUCTWProberFv
+0005A0	DS 	GetConfidence__13nsEUCTWProberFv
+0005A8	DS 	HandleData__13nsEUCTWProberFPCcUi
+0005B0	DS 	Reset__13nsEUCTWProberFv
+0005B8	DS 	GetState__25nsSingleByteCharSetProberFv		file = "nsSBCharSetProber.cpp"
+0005C0	DS 	SetOpion__25nsSingleByteCharSetProberFv
+0005C8	DS 	GetConfidence__25nsSingleByteCharSetProberFv
+0005D0	DS 	Reset__25nsSingleByteCharSetProberFv
+0005D8	DS 	HandleData__25nsSingleByteCharSetProberFPCcUi
+0005E0	DS 	GetCharSetName__18nsEscCharSetProberFv		file = "nsEscCharsetProber.cpp"
+0005E8	DS 	GetState__18nsEscCharSetProberFv
+0005F0	DS 	GetConfidence__18nsEscCharSetProberFv
+0005F8	DS 	SetOpion__18nsEscCharSetProberFv
+000600	DS 	HandleData__18nsEscCharSetProberFPCcUi
+000608	DS 	Reset__18nsEscCharSetProberFv
+000610	DS 	__dt__18nsEscCharSetProberFv
+000618	DS 	__dt__14nsLatin1ProberFv					file = "nsLatin1Prober.cpp"
+000620	DS 	GetCharSetName__14nsLatin1ProberFv
+000628	DS 	GetState__14nsLatin1ProberFv
+000630	DS 	SetOpion__14nsLatin1ProberFv
+000638	DS 	GetConfidence__14nsLatin1ProberFv
+000640	DS 	HandleData__14nsLatin1ProberFPCcUi
+000648	DS 	Reset__14nsLatin1ProberFv
+000650	DS 	__NSTerminate								file = "NSStartup.c"
+000658	DS 	__NSInitialize
+000660	TB 	@780										file = "nsUniversalCharDetModule.cpp"
+000672	TB 	@800
+000684	TB 	@830
+0006B6	TB 	@850
+0006CC	TB 	@551										file = "nsUniversalDetector.cpp"
+000714	TB 	@172										file = "nsMBCSGroupProber.cpp"
+000852	TB 	@70											file = "nsSBCSGroupProber.cpp"
+000A14	TB 	@34											file = "nsEscCharsetProber.cpp"
+000A2C	RW 	components									file = "nsUniversalCharDetModule.cpp"
+000A9C	RW 	gModuleInfo
+000AB4	RW 	__RTTI__15nsCOMPtr_helper
+000ABC	RW 	__vt__15nsCOMPtr_helper
+000AC8	RW 	__RTTI__11nsISupports						file = "nsUniversalDetector.cpp"
+000AD0	RW 	@821
+000ADC	RW 	__RTTI__24nsIStringCharsetDetector
+000AE4	RW 	__RTTI__19nsUniversalDetector
+000AEC	RW 	@818
+000B08	RW 	__RTTI__30nsUniversalXPCOMStringDetector
+000B10	RW 	__vt__30nsUniversalXPCOMStringDetector
+000B54	RW 	__vt__24nsIStringCharsetDetector
+000B6C	RW 	@826
+000B78	RW 	__RTTI__18nsICharsetDetector
+000B80	RW 	@824
+000B9C	RW 	__RTTI__24nsUniversalXPCOMDetector
+000BA4	RW 	__vt__24nsUniversalXPCOMDetector
+000BF8	RW 	__vt__18nsICharsetDetector
+000C18	RW 	__vt__11nsISupports
+000C2C	RW 	__RTTI__15nsCharSetProber
+000C34	RW 	__vt__15nsCharSetProber
+000C58	RW 	__vt__19nsUniversalDetector
+000C74	RW 	__RTTI__15nsCharSetProber					file = "nsMBCSGroupProber.cpp"
+000C7C	RW 	@273
+000C88	RW 	__RTTI__17nsMBCSGroupProber
+000C90	RW 	__vt__17nsMBCSGroupProber
+000CB4	RW 	__RTTI__23JapaneseContextAnalysis
+000CBC	RW 	__vt__23JapaneseContextAnalysis
+000CCC	RW 	__RTTI__15nsCharSetProber					file = "nsSBCSGroupProber.cpp"
+000CD4	RW 	@206
+000CE0	RW 	__RTTI__17nsSBCSGroupProber
+000CE8	RW 	__vt__17nsSBCSGroupProber
+000D0C	RW 	BIG5_cls									file = "nsMBCSSM.cpp"
+000D8C	RW 	BIG5_st
+000D98	RW 	Big5CharLenTable
+000DAC	RW 	Big5SMModel
+000DE0	RW 	EUCJP_cls
+000E60	RW 	EUCJP_st
+000E74	RW 	EUCJPCharLenTable
+000E8C	RW 	EUCJPSMModel
+000EC0	RW 	EUCKR_cls
+000F40	RW 	EUCKR_st
+000F48	RW 	EUCKRCharLenTable
+000F58	RW 	EUCKRSMModel
+000F8C	RW 	EUCTW_cls
+00100C	RW 	EUCTW_st
+001024	RW 	EUCTWCharLenTable
+001040	RW 	EUCTWSMModel
+001074	RW 	GB18030_cls
+0010F4	RW 	GB18030_st
+00110C	RW 	GB18030CharLenTable
+001128	RW 	GB18030SMModel
+00115C	RW 	SJIS_cls
+0011DC	RW 	SJIS_st
+0011E8	RW 	SJISCharLenTable
+001200	RW 	SJISSMModel
+001234	RW 	UTF8_cls
+0012B4	RW 	UTF8_st
+00131C	RW 	UTF8CharLenTable
+00135C	RW 	UTF8SMModel
+001390	RW 	__RTTI__15nsCharSetProber					file = "nsUTF8Prober.cpp"
+001398	RW 	@77
+0013A4	RW 	__RTTI__12nsUTF8Prober
+0013AC	RW 	__vt__12nsUTF8Prober
+0013D0	RW 	__RTTI__15nsCharSetProber					file = "nsSJISProber.cpp"
+0013D8	RW 	@156
+0013E4	RW 	__RTTI__12nsSJISProber
+0013EC	RW 	__vt__12nsSJISProber
+001410	RW 	__RTTI__15nsCharSetProber					file = "nsEUCJPProber.cpp"
+001418	RW 	@156
+001424	RW 	__RTTI__13nsEUCJPProber
+00142C	RW 	__vt__13nsEUCJPProber
+001450	RW 	jp2CharContext								file = "JpCntx.cpp"
+002F3C	RW 	__RTTI__23JapaneseContextAnalysis
+002F44	RW 	@93
+002F50	RW 	__RTTI__20EUCJPContextAnalysis
+002F58	RW 	__vt__20EUCJPContextAnalysis
+002F68	RW 	@99
+002F74	RW 	__RTTI__19SJISContextAnalysis
+002F7C	RW 	__vt__19SJISContextAnalysis
+002F8C	RW 	JISCharToFreqOrder							file = "CharDistribution.cpp"
+0051AC	RW 	Big5CharToFreqOrder
+007BAC	RW 	EUCKRCharToFreqOrder
+008E0C	RW 	EUCTWCharToFreqOrder
+00B80C	RW 	GB2312CharToFreqOrder
+00D56C	RW 	__RTTI__24CharDistributionAnalysis
+00D574	RW 	@95
+00D580	RW 	__RTTI__25EUCJPDistributionAnalysis
+00D588	RW 	__vt__25EUCJPDistributionAnalysis
+00D594	RW 	@101
+00D5A0	RW 	__RTTI__24SJISDistributionAnalysis
+00D5A8	RW 	__vt__24SJISDistributionAnalysis
+00D5B4	RW 	@111
+00D5C0	RW 	__RTTI__24Big5DistributionAnalysis
+00D5C8	RW 	__vt__24Big5DistributionAnalysis
+00D5D4	RW 	@118
+00D5E0	RW 	__RTTI__26GB2312DistributionAnalysis
+00D5E8	RW 	__vt__26GB2312DistributionAnalysis
+00D5F4	RW 	@124
+00D600	RW 	__RTTI__25EUCKRDistributionAnalysis
+00D608	RW 	__vt__25EUCKRDistributionAnalysis
+00D614	RW 	@129
+00D620	RW 	__RTTI__25EUCTWDistributionAnalysis
+00D628	RW 	__vt__25EUCTWDistributionAnalysis
+00D634	RW 	__vt__24CharDistributionAnalysis
+00D640	RW 	__RTTI__15nsCharSetProber					file = "nsGB2312Prober.cpp"
+00D648	RW 	@121
+00D654	RW 	__RTTI__15nsGB18030Prober
+00D65C	RW 	__vt__15nsGB18030Prober
+00D680	RW 	__RTTI__15nsCharSetProber					file = "nsEUCKRProber.cpp"
+00D688	RW 	@121
+00D694	RW 	__RTTI__13nsEUCKRProber
+00D69C	RW 	__vt__13nsEUCKRProber
+00D6C0	RW 	__RTTI__15nsCharSetProber					file = "nsBig5Prober.cpp"
+00D6C8	RW 	@121
+00D6D4	RW 	__RTTI__12nsBig5Prober
+00D6DC	RW 	__vt__12nsBig5Prober
+00D700	RW 	__RTTI__15nsCharSetProber					file = "nsEUCTWProber.cpp"
+00D708	RW 	@121
+00D714	RW 	__RTTI__13nsEUCTWProber
+00D71C	RW 	__vt__13nsEUCTWProber
+00D740	RW 	__RTTI__15nsCharSetProber					file = "nsSBCharSetProber.cpp"
+00D748	RW 	@67
+00D754	RW 	__RTTI__25nsSingleByteCharSetProber
+00D75C	RW 	__vt__25nsSingleByteCharSetProber
+00D780	RW 	__RTTI__15nsCharSetProber					file = "nsEscCharsetProber.cpp"
+00D788	RW 	@108
+00D794	RW 	__RTTI__18nsEscCharSetProber
+00D79C	RW 	__vt__18nsEscCharSetProber
+00D7C0	RW 	KOI8R_CharToOrderMap						file = "LangCyrillicModel.cpp"
+00D8C0	RW 	win1251_CharToOrderMap
+00D9C0	RW 	latin5_CharToOrderMap
+00DAC0	RW 	macCyrillic_CharToOrderMap
+00DBC0	RW 	IBM855_CharToOrderMap
+00DCC0	RW 	IBM866_CharToOrderMap
+00DDC0	RW 	RussianLangModel
+00EDC0	RW 	Koi8rModel
+00EDD4	RW 	Win1251Model
+00EDE8	RW 	Latin5Model
+00EDFC	RW 	MacCyrillicModel
+00EE10	RW 	Ibm866Model
+00EE24	RW 	Ibm855Model
+00EE38	RW 	Latin7_CharToOrderMap						file = "LangGreekModel.cpp"
+00EF38	RW 	win1253_CharToOrderMap
+00F038	RW 	GreekLangModel
+010038	RW 	Latin7Model
+01004C	RW 	Win1253Model
+010060	RW 	Latin5_BulgarianCharToOrderMap				file = "LangBulgarianModel.cpp"
+010160	RW 	win1251BulgarianCharToOrderMap
+010260	RW 	BulgarianLangModel
+011260	RW 	Latin5BulgarianModel
+011274	RW 	Win1251BulgarianModel
+011288	RW 	HZ_cls										file = "nsEscSM.cpp"
+011308	RW 	HZ_st
+011320	RW 	HZCharLenTable
+011338	RW 	HZSMModel
+01136C	RW 	ISO2022CN_cls
+0113EC	RW 	ISO2022CN_st
+01140C	RW 	ISO2022CNCharLenTable
+011430	RW 	ISO2022CNSMModel
+011464	RW 	ISO2022JP_cls
+0114E4	RW 	ISO2022JP_st
+0114FC	RW 	ISO2022JPCharLenTable
+01151C	RW 	ISO2022JPSMModel
+011550	RW 	ISO2022KR_cls
+0115D0	RW 	ISO2022KR_st
+0115E4	RW 	ISO2022KRCharLenTable
+0115FC	RW 	ISO2022KRSMModel
+011630	RW 	Latin1_CharToClass							file = "nsLatin1Prober.cpp"
+011730	RW 	Latin1ClassModel
+011770	RW 	__RTTI__15nsCharSetProber
+011778	RW 	@94
+011784	RW 	__RTTI__14nsLatin1Prober
+01178C	RW 	__vt__14nsLatin1Prober
+0117B0	RW 	__global_destructor_chain					file = "global_destructor_chain.c"
+
+Import container "NSPR20"
+Current Version = 00000191, Old Implementation = 00000190
+000000	DS 	PR_Malloc
+000001	DS 	PR_Free
+
+Import container "NSStdLib"
+Current Version = 00000190, Old Implementation = 00000190
+000002	DS 	GC_unregister_fragment
+000003	DS 	__nw__FUl
+000004	DS 	GC_register_fragment
+000005	DS 	__dl__FPv
+
+Import container "NSRuntime"
+Current Version = 00000000, Old Implementation = 00000000
+000006	DS 	__register_fragment
+000007	DS 	__unregister_fragment
+
+Import container "XPCOM_DLL"
+Current Version = 000001F4, Old Implementation = 000001F4
+000008	DS 	assign_from_helper__13nsCOMPtr_baseFRC15nsCOMPtr_helperRC4nsID
+000009	RW 	__vt__16nsQueryInterface
+00000A	RW 	__vt__24nsGetServiceByContractID
+00000B	DS 	NS_NewGenericModule2__FP12nsModuleInfoPP9nsIModule
+00000C	DS 	__dt__13nsCOMPtr_baseFv
+
+
+File and routine reference details
+
+File "nsUniversalCharDetModule.cpp"
+	Unreferenced read-only data: iid$localstatic3$.GetIID__22nsIProgrammingLanguageFv
+	Unreferenced read-only data: iid$localstatic3$.GetIID__12nsIClassInfoFv
+	Unreferenced read-only data: iid$localstatic3$.GetIID__9nsIMemoryFv
+	Unreferenced read-only data: kICharsetAliasIID
+	Unreferenced read-only data: kCharsetAliasCID
+	Unreferenced read-only data: iid$localstatic3$.GetIID__15nsICharsetAliasFv
+	Unreferenced read-only data: iid$localstatic3$.GetIID__9nsIModuleFv
+	Unreferenced read-only data: iid$localstatic3$.GetIID__19nsISimpleEnumeratorFv
+	Unreferenced read-only data: iid$localstatic3$.GetIID__19nsIComponentManagerFv
+	Unreferenced read-only data: iid$localstatic3$.GetIID__10nsIFactoryFv
+	Unreferenced read-only data: iid$localstatic3$.GetIID__27nsIComponentManagerObsoleteFv
+	Unreferenced read-only data: iid$localstatic3$.GetIID__25nsIServiceManagerObsoleteFv
+	Unreferenced read-only data: iid$localstatic3$.GetIID__17nsIGenericFactoryFv
+	Unreferenced read-only data: iid$localstatic3$.GetIID__27nsICharsetDetectionObserverFv
+	Unreferenced read-only data: kUniversalDetectorCID
+	Unreferenced read-only data: kUniversalStringDetectorCID
+	Unreferenced code: .__dt__29nsCOMPtr<17nsIServiceManager>Fv
+	Unreferenced routine descriptor: __dt__29nsCOMPtr<17nsIServiceManager>Fv
+	Unreferenced routine descriptor: do_GetService__FPCcPUi
+File "nsUniversalDetector.cpp"
+	Unreferenced read-only data: kUniversalDetectorCID
+	Unreferenced read-only data: kUniversalStringDetectorCID
+	Unreferenced routine descriptor: __ct__30nsUniversalXPCOMStringDetectorFv
+	Unreferenced routine descriptor: __ct__24nsUniversalXPCOMDetectorFv
+	Unreferenced routine descriptor: __ct__19nsUniversalDetectorFv
+File "nsMBCSGroupProber.cpp"
+	Unreferenced routine descriptor: __ct__17nsMBCSGroupProberFv
+File "nsSBCSGroupProber.cpp"
+	Unreferenced routine descriptor: FilterWithoutEnglishLetters__17nsSBCSGroupProberFPCcUiPPcRUi
+	Unreferenced routine descriptor: __ct__17nsSBCSGroupProberFv
+File "nsMBCSSM.cpp"
+	Unreferenced data: UCS2BE_cls
+	Unreferenced data: UCS2BE_st
+	Unreferenced data: UCS2BECharLenTable
+	Unreferenced data: UCS2BESMModel
+	Unreferenced data: UCS2LE_cls
+	Unreferenced data: UCS2LE_st
+	Unreferenced data: UCS2LECharLenTable
+	Unreferenced data: UCS2LESMModel
+File "nsUTF8Prober.cpp"
+File "nsSJISProber.cpp"
+File "nsEUCJPProber.cpp"
+File "JpCntx.cpp"
+	Unreferenced code: .HandleData__23JapaneseContextAnalysisFPCcUi
+	Unreferenced routine descriptor: GetConfidence__23JapaneseContextAnalysisFv
+	Unreferenced routine descriptor: Reset__23JapaneseContextAnalysisFv
+	Unreferenced routine descriptor: HandleData__23JapaneseContextAnalysisFPCcUi
+File "CharDistribution.cpp"
+	Unreferenced routine descriptor: __ct__25EUCJPDistributionAnalysisFv
+	Unreferenced routine descriptor: __ct__24SJISDistributionAnalysisFv
+	Unreferenced routine descriptor: __ct__24Big5DistributionAnalysisFv
+	Unreferenced routine descriptor: __ct__26GB2312DistributionAnalysisFv
+	Unreferenced routine descriptor: __ct__25EUCKRDistributionAnalysisFv
+	Unreferenced routine descriptor: __ct__25EUCTWDistributionAnalysisFv
+	Unreferenced routine descriptor: GetConfidence__24CharDistributionAnalysisFv
+File "nsGB2312Prober.cpp"
+File "nsEUCKRProber.cpp"
+File "nsBig5Prober.cpp"
+File "nsEUCTWProber.cpp"
+File "nsSBCharSetProber.cpp"
+File "nsEscCharsetProber.cpp"
+	Unreferenced routine descriptor: __ct__18nsEscCharSetProberFv
+File "LangCyrillicModel.cpp"
+File "LangGreekModel.cpp"
+File "LangBulgarianModel.cpp"
+File "LangHungarianModel.cpp"
+	Unreferenced: LangHungarianModel.cpp
+File "nsEscSM.cpp"
+File "nsLatin1Prober.cpp"
+	Unreferenced routine descriptor: FilterWithEnglishLetters__14nsLatin1ProberFPCcUiPPcRUi
+In library file "NSComponentStartup.o"
+	File "MSL_DropInRuntime_PPC.Lib"
+		Unreferenced: MSL_DropInRuntime_PPC.Lib
+	File "DTSOMRuntimeInternal.cp"
+		Unreferenced: DTSOMRuntimeInternal.cp
+	File "global_destructor_chain.c"
+		Unreferenced code: .__register_global_object
+		Unreferenced code: .__atexit_forward
+		Unreferenced code: .__register_atexit
+		Unreferenced data: atexit_funcs
+		Unreferenced: atexit_curr_func
+		Unreferenced routine descriptor: __register_atexit
+		Unreferenced routine descriptor: __atexit_forward
+		Unreferenced routine descriptor: __destroy_global_chain
+		Unreferenced routine descriptor: __register_global_object
+	File "ptmf.c"
+		Unreferenced: ptmf.c
+	File "runtime.c"
+		Unreferenced read-only data: __constants
+		Unreferenced code: .__cvt_fp2unsigned
+		Unreferenced: ._ptrgl12
+		Unreferenced: ._ptrgl
+		Unreferenced: ._ptrglpas
+		Unreferenced code: .__save_fpr
+		Unreferenced code: ._savevr
+		Unreferenced code: .__restore_fpr
+		Unreferenced code: ._restorevr
+		Unreferenced code: .__div2u
+		Unreferenced code: .__div2i
+		Unreferenced code: .__mod2u
+		Unreferenced code: .__mod2i
+		Unreferenced code: .__shl2i
+		Unreferenced code: .__shr2u
+		Unreferenced code: .__shr2i
+		Unreferenced code: .__cvt_sll_dbl
+		Unreferenced code: .__cvt_ull_dbl
+		Unreferenced code: .__cvt_sll_flt
+		Unreferenced code: .__cvt_ull_flt
+		Unreferenced code: .__cvt_dbl_usll
+	File "setjmp.c"
+		Unreferenced: setjmp.c
+	File "StartupDropIn.c"
+		Unreferenced routine descriptor: __terminate
+		Unreferenced routine descriptor: __initialize
+	File "Destroy.cp"
+		Unreferenced: Destroy.cp
+	File "NSStartup.c"
+	File "nsComponentResContext.cpp"
+		Unreferenced: nsComponentResContext.cpp
+
+Removed unused TOC-reload slots:   0x00000000

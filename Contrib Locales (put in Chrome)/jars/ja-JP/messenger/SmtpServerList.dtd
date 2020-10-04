@@ -1,0 +1,1 @@
+<!ENTITY smtpListTitle.label "送信 (SMTP) サーバ詳細設定"><!ENTITY smtpListDesc.label "複数の送信 (SMTP),サーバを設定することは可能ですが、上級ユーザのみに推奨されます。複数の SMTP サーバを設定することは、メッセージ送信時のトラブルの原因となることがあります。"><!ENTITY smtpListAdd.label  "追加..."><!ENTITY smtpListEdit.label "編集..."><!ENTITY smtpListDelete.label "削除"><!ENTITY smtpListSetDefault.label "デフォルトに戻す">

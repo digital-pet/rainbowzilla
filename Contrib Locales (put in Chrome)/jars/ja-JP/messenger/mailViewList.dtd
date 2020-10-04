@@ -1,0 +1,1 @@
+<!--LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder --><!ENTITY mailViewListTitle.label "メッセージ概観"><!ENTITY mailViewListHeading.label "メッセージ概観では一定の条件に該当するメッセージのみを表示します。"><!ENTITY viewName.label "概観名">

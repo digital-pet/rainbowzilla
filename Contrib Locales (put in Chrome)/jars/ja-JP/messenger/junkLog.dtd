@@ -1,0 +1,1 @@
+<!ENTITY junkLog.title "ジャンクメールのログ"><!ENTITY junkLogInfo.text "ジャンクメールのログはジャンクメール対応を記録するファイルです。有効にするには下のチェックボックスをチェックします。"><!ENTITY clearLog.label "ログを消去"><!ENTITY clearLog.accesskey "C"><!ENTITY enableLog.label "ジャンクメールのログを有効にする"><!ENTITY enableLog.accesskey "E">

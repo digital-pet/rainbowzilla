@@ -1,0 +1,1 @@
+function() {	return {		wantURI : function(uri) {			return true;		},		parseCSS : function(text) {			var t = removeCSSBlock(text, "#logo img");			return {				response	: "ok",				body		: text + "\n#logo img { display: none; }"			};		}	};}

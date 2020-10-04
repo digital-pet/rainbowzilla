@@ -1,0 +1,1 @@
+////	Caps.Prefix//// Global prefix file for the Caps project.////#include "MacPrefix.h"#include "CapsConfig.h"

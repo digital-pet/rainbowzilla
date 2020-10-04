@@ -1,0 +1,1636 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+<rdf:Description about="help-indexAZ.rdf#a">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Account_Settings"
+         nc:name="アカウントの設定"
+	 nc:link="mail_help.html#Account_SettingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+
+<rdf:Description about="help-indexAZ.rdf#b">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="bookmarks"
+         nc:name="ブックマーク"
+	 nc:link="nav_help.html#bookmarks:boomarking_search_resultsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#bookmarks">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="bookmarks:boomarking_search_results"
+         nc:name="ブックマーキング検索結果"
+	 nc:link="nav_help.html#bookmarks:boomarking_search_resultsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#bookmarks">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="bookmarks:changing_bookmarks"
+         nc:name="ブックマークを変更する"
+	 nc:link="customize_help.html#bookmarks:changing_bookmarksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#bookmarks">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="bookmarks:creating_bookmarks"
+         nc:name="ブックマークを作成する"
+	 nc:link="customize_help.html#bookmarks:creating_bookmarksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#bookmarks">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="bookmarks:exporting_bookmarks"
+         nc:name="ブックマークをエクスポートする"
+	 nc:link="customize_help.html#bookmarks:exporting_bookmarksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#bookmarks">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="bookmarks:organizing_bookmarks"
+         nc:name="ブックマークを整理する"
+	 nc:link="customize_help.html#bookmarks:organizing_bookmarksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#bookmarks">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="bookmarks:searching_bookmarks"
+         nc:name="ブックマークを検索する"
+	 nc:link="customize_help.html#bookmarks:searching_bookmarksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#bookmarks">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="bookmarks:using_bookmarks"
+         nc:name="ブックマークを使用する"
+	 nc:link="customize_help.html#bookmarks:using_bookmarksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#bookmarks">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="bookmarks:visiting"
+         nc:name="アクセスする"
+	 nc:link="nav_help.html#bookmarks:visitingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#bookmarks">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="bookmarks:what_are_bookmarks"
+         nc:name="ブックマークとは"
+	 nc:link="customize_help.html#bookmarks:what_are_bookmarksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#b">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="browser"
+         nc:name="ブラウザ"
+	 nc:link="customize_help.html#browser:start_up_componentsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#browser">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="browser:start_up_components"
+         nc:name="起動コンポーネント"
+	 nc:link="customize_help.html#browser:start_up_componentsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#b">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="browsing_anonymously"
+         nc:name="匿名でブラウザする"
+	 nc:link="privacy_help.html#browsing_anonymouslyIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#c">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="cache"
+         nc:name="cache"
+	 nc:link="nav_help.html#cache:changing_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#cache">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="cache:changing_settings"
+         nc:name="設定を変更する"
+	 nc:link="nav_help.html#cache:changing_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#colors">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="colors:customizing_web_page"
+         nc:name="Web ページをカスタマイズする"
+	 nc:link="customize_help.html#colors:customizing_web_pageIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#c">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer"
+         nc:name="Composer"
+	 nc:link="composer_help.html#Composer:adding_tablesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:adding_tables"
+         nc:name="表を追加する"
+	 nc:link="composer_help.html#Composer:adding_tablesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:Advanced_Property_Editor"
+         nc:name="詳細プロパティエディタ"
+	 nc:link="composer_help.html#Composer:Advanced_Property_EditorIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:changing_text_color"
+         nc:name="テキストの色を変更する"
+	 nc:link="composer_help.html#Composer:changing_text_colorIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:changing_text_font"
+         nc:name="テキストのフォントを変更する"
+	 nc:link="composer_help.html#Composer:changing_text_fontIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:checking_html"
+         nc:name="html をチェックする"
+	 nc:link="composer_help.html#Composer:checking_htmlIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:checking_spelling"
+         nc:name="スペルチェック"
+	 nc:link="composer_help.html#Composer:checking_spellingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:creating_links"
+         nc:name="リンクを作成する"
+	 nc:link="composer_help.html#Composer:creating_linksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:creating_new_pages"
+         nc:name="新しいページを作成する"
+	 nc:link="composer_help.html#Composer:creating_new_pagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:editing_image_properties"
+         nc:name="画像のプロパティを編集する"
+	 nc:link="composer_help.html#Composer:editing_image_propertiesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:editing_modes"
+         nc:name="モードを編集する"
+	 nc:link="composer_help.html#Composer:editing_modesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:finding_replacing_text"
+         nc:name="テキストを検索／置換する"
+	 nc:link="composer_help.html#Composer:finding_replacing_textIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:formatting_lists"
+         nc:name="リストの書式を設定する"
+	 nc:link="composer_help.html#Composer:formatting_listsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:formatting_paragraphs"
+         nc:name="段落の書式を設定する"
+	 nc:link="composer_help.html#Composer:formatting_paragraphsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:general_preferences"
+         nc:name="全般設定"
+	 nc:link="composer_help.html#Composer:general_preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:HTML_Element_and_Attributes"
+         nc:name="HTML 要素と属性"
+	 nc:link="composer_help.html#Composer:HTML_Element_and_AttributesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:inserting_horizontal_lines"
+         nc:name="横罫線を挿入する"
+	 nc:link="composer_help.html#Composer:inserting_horizontal_linesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:inserting_images"
+         nc:name="画像を挿入する"
+	 nc:link="composer_help.html#Composer:inserting_imagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:removing_text_styles"
+         nc:name="テキストのスタイルを削除する"
+	 nc:link="composer_help.html#Composer:removing_text_stylesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:saving_pages"
+         nc:name="ページを保存する"
+	 nc:link="composer_help.html#Composer:saving_pagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:setting_page_colors"
+         nc:name="ページの色を設定する"
+	 nc:link="composer_help.html#Composer:setting_page_colorsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:setting_page_properties"
+         nc:name="ページのプロパティを設定する"
+	 nc:link="composer_help.html#Composer:setting_page_propertiesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:special_characters"
+         nc:name="特殊文字"
+	 nc:link="composer_help.html#Composer:special_charactersIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Composer">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Composer:working_with_lists"
+         nc:name="リストを操作する"
+	 nc:link="composer_help.html#Composer:working_with_listsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#c">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="cookies"
+         nc:name="cookies"
+	 nc:link="privacy_help.html#cookies:aboutIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#cookies">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="cookies:about"
+         nc:name="cookie について"
+	 nc:link="privacy_help.html#cookies:aboutIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#cookies">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="cookies:foreign"
+         nc:name="外部 cookie"
+	 nc:link="privacy_help.html#cookies:foreignIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#c">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Customizing Fonts"
+         nc:name="フォントをカスタマイズする"
+	 nc:link="customize_help.html#Customizing FontsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#f">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="file_types"
+         nc:name="ファイルタイプ"
+	 nc:link="nav_help.html#file_types:managingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#file_types">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="file_types:managing"
+         nc:name="管理する"
+	 nc:link="nav_help.html#file_types:managingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#file_types">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="file_types:opening"
+         nc:name="開く"
+	 nc:link="nav_help.html#file_types:openingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#i">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="IMAP"
+         nc:name="IMAP"
+	 nc:link="mail_help.html#IMAP:Mail_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#IMAP">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="IMAP:Mail_settings"
+         nc:name="メールの設定"
+	 nc:link="mail_help.html#IMAP:Mail_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#i">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Internet_Keywords"
+         nc:name="Internet Keywords"
+	 nc:link="nav_help.html#Internet_Keywords:using_Internet_KeywordsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Internet_Keywords">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Internet_Keywords:using_Internet_Keywords"
+         nc:name="Internet Keywords を使用する"
+	 nc:link="nav_help.html#Internet_Keywords:using_Internet_KeywordsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#j">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Java_and_JavaScript"
+         nc:name="Java と JavaScript"
+	 nc:link="nav_help.html#Java_and_JavaScript:enablingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Java_and_JavaScript">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Java_and_JavaScript:enabling"
+         nc:name="有効にする"
+	 nc:link="nav_help.html#Java_and_JavaScript:enablingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#l">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Labels"
+         nc:name="ラベル"
+	 nc:link="mail_help.html#Labels:general_preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Labels">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Labels:general_preferences"
+         nc:name="全般設定"
+	 nc:link="mail_help.html#Labels:general_preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#l">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="LDAP"
+         nc:name="LDAP"
+	 nc:link="mail_help.html#LDAP:global_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#LDAP">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="LDAP:global_settings"
+         nc:name="グローバル設定"
+	 nc:link="mail_help.html#LDAP:global_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#m">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups"
+         nc:name="メールとニュースグループ"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:Account_Setup_WizardIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:Account_Setup_Wizard"
+         nc:name="アカウント設定ウィザード"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:Account_Setup_WizardIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:adding_accounts"
+         nc:name="アカウントを追加する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:adding_accountsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:address_autocompletion"
+         nc:name="アドレス自動補完"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:address_autocompletionIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:addressing_messages"
+         nc:name="メッセージのアドレスを指定する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:addressing_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:addressing_preferences"
+         nc:name="アドレス指定の設定"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:addressing_preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:Advanced_IMAP_settings"
+         nc:name="IMAP の詳細設定"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:Advanced_IMAP_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:AOL_Mail_and_Webmail_syncing"
+         nc:name="AOL メールと Webmail を同期する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:AOL_Mail_and_Webmail_syncingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:attaching_files"
+         nc:name="ファイルを添付する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:attaching_filesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:changing_account_settings"
+         nc:name="アカウント設定を変更する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:changing_account_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:Compose_window"
+         nc:name="作成ウィンドウ"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:Compose_windowIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:composing_messages"
+         nc:name="メッセージを作成する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:composing_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:copies_and_folder_settings"
+         nc:name="コピーとフォルダの設定"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:copies_and_folder_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:copying_folders"
+         nc:name="フォルダをコピーする"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:copying_foldersIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:creating_filters"
+         nc:name="フィルタを作成する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:creating_filtersIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:creating_folders"
+         nc:name="フォルダを作成する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:creating_foldersIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:creating_HTML_mail_messages"
+         nc:name="HTML メールメッセージを作成する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:creating_HTML_mail_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:Disk_Space_settings"
+         nc:name="ディスク領域の設定"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:Disk_Space_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:filing_messages"
+         nc:name="メッセージを整理する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:filing_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:forwarding_messages"
+         nc:name="メッセージを転送する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:forwarding_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:general_preferences"
+         nc:name="全般設定"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:general_preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:getting_new_messages"
+         nc:name="新着メッセージを受信する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:getting_new_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:HTML_mail_recipients"
+         nc:name="HTML メールの受取人"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:HTML_mail_recipientsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:HTML_mail_sending_options"
+         nc:name="HTML メールの送信オプション"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:HTML_mail_sending_optionsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:HTML_Message_Source"
+         nc:name="HTML メッセージのソース"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:HTML_Message_SourceIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:identity_settings"
+         nc:name="個人情報の設定"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:identity_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:importing_address_books"
+         nc:name="アドレス帳をインポートする"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:importing_address_booksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:importing_mail_messages"
+         nc:name="メールメッセージをインポートする"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:importing_mail_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:mail_window_layout"
+         nc:name="メールウィンドウのレイアウト"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:mail_window_layoutIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:message_searching"
+         nc:name="メッセージの検索"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:message_searchingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:POP_settings"
+         nc:name="POP 設定"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:POP_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:renaming_folders"
+         nc:name="フォルダ名を変更する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:renaming_foldersIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:replying_to_messages"
+         nc:name="メッセージに返信する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:replying_to_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:saving_and_printing_messages"
+         nc:name="メッセージを保存、印刷する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:saving_and_printing_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:saving_attachments"
+         nc:name="添付ファイルを保存する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:saving_attachmentsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:saving_messages_drafts"
+         nc:name="メッセージの下書きを保存する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:saving_messages_draftsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:sending_messages"
+         nc:name="メッセージを送信する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:sending_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:sending_options"
+         nc:name="送信オプション"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:sending_optionsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:SMTP_settings"
+         nc:name="SMTP 設定"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:SMTP_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:sorting_and_threading_messages"
+         nc:name="メッセージを項目やスレッドで並べ替える"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:sorting_and_threading_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:using_address_books"
+         nc:name="アドレス帳を使用する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:using_address_booksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:using_attachments"
+         nc:name="添付ファイルを使用する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:using_attachmentsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:using_HTML_in_messages"
+         nc:name="メッセージに HTML を使用する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:using_HTML_in_messagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:using_mailing_addresses"
+         nc:name="メーリングアドレスを使用する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:using_mailing_addressesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:using_templates"
+         nc:name="テンプレートを使用する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:using_templatesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:viewing_attachments"
+         nc:name="添付ファイルを表示する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:viewing_attachmentsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Mail_and_Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Mail_and_Newsgroups:working_offline"
+         nc:name="オフラインで作業する"
+	 nc:link="mail_help.html#Mail_and_Newsgroups:working_offlineIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#m">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="mouse_wheel"
+         nc:name="マウスホイール"
+	 nc:link="nav_help.html#mouse_wheel:usingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#mouse_wheel">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="mouse_wheel:using"
+         nc:name="使用する"
+	 nc:link="nav_help.html#mouse_wheel:usingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#m">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="My_Sidebar"
+         nc:name="Sidebar"
+	 nc:link="customize_help.html#My_Sidebar:adding_tabsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#My_Sidebar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="My_Sidebar:adding_tabs"
+         nc:name="タブを追加する"
+	 nc:link="customize_help.html#My_Sidebar:adding_tabsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#My_Sidebar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="My_Sidebar:customizing_tabs"
+         nc:name="タブをカスタマイズする"
+	 nc:link="customize_help.html#My_Sidebar:customizing_tabsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#My_Sidebar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="My_Sidebar:description"
+         nc:name="説明"
+	 nc:link="customize_help.html#My_Sidebar:descriptionIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#My_Sidebar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="My_Sidebar:removing_tabs"
+         nc:name="タブを削除する"
+	 nc:link="customize_help.html#My_Sidebar:removing_tabsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#My_Sidebar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="My_Sidebar:reorganizing_tabs"
+         nc:name="タブを再編成する"
+	 nc:link="customize_help.html#My_Sidebar:reorganizing_tabsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#My_Sidebar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="My_Sidebar:search_categories"
+         nc:name="検索カテゴリ"
+	 nc:link="nav_help.html#My_Sidebar:search_categoriesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#My_Sidebar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="My_Sidebar:searching_from"
+         nc:name="Sidebar から検索する"
+	 nc:link="nav_help.html#My_Sidebar:searching_fromIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#My_Sidebar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="My_Sidebar:using"
+         nc:name="使用する"
+	 nc:link="customize_help.html#My_Sidebar:usingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#n">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Navigator"
+         nc:name="Navigator"
+	 nc:link="customize_help.html#Navigator:changing_your_home_pageIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Navigator">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Navigator:changing_your_home_page"
+         nc:name="ホームページを変更する"
+	 nc:link="customize_help.html#Navigator:changing_your_home_pageIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Navigator">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Navigator:start_page"
+         nc:name="スタートページ"
+	 nc:link="customize_help.html#Navigator:start_pageIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#n">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Netscape_WebMail"
+         nc:name="Netscape WebMail"
+	 nc:link="mail_help.html#Netscape_WebMail:setting_upIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Netscape_WebMail">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Netscape_WebMail:setting_up"
+         nc:name="設定する"
+	 nc:link="mail_help.html#Netscape_WebMail:setting_upIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#n">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Newsgroups"
+         nc:name="ニュースグループ"
+	 nc:link="mail_help.html#Newsgroups:getting_startedIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Newsgroups:getting_started"
+         nc:name="はじめに"
+	 nc:link="mail_help.html#Newsgroups:getting_startedIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Newsgroups">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Newsgroups:server_settings"
+         nc:name="サーバ設定"
+	 nc:link="mail_help.html#Newsgroups:server_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#o">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Offline"
+         nc:name="オフライン"
+	 nc:link="mail_help.html#Offline:general_preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Offline">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Offline:general_preferences"
+         nc:name="全般設定"
+	 nc:link="mail_help.html#Offline:general_preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Offline">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Offline:Mail_and_Newsgroups"
+         nc:name="メールとニュースグループ"
+	 nc:link="mail_help.html#Offline:Mail_and_NewsgroupsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Offline">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Offline:Mail_settings"
+         nc:name="メール設定"
+	 nc:link="mail_help.html#Offline:Mail_settingsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#p">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="print"
+         nc:name="印刷"
+	 nc:link="nav_help.html#print:web_pagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#print">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="print:web_pages"
+         nc:name="Web ページ"
+	 nc:link="nav_help.html#print:web_pagesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#p">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="privacy"
+         nc:name="プライバシー"
+	 nc:link="privacy_help.html#privacy:aboutIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#privacy">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="privacy:about"
+         nc:name="プライバシーについて"
+	 nc:link="privacy_help.html#privacy:aboutIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#privacy">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="privacy:cookies_and"
+         nc:name="cookies"
+	 nc:link="privacy_help.html#privacy:cookies_andIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#privacy">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="privacy:IP_address"
+         nc:name="IP アドレス"
+	 nc:link="privacy_help.html#privacy:IP_addressIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#privacy">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="privacy:preferences"
+         nc:name="環境設定"
+	 nc:link="privsec_help.html#privacy:preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#privacy">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="privacy:protecting"
+         nc:name="保護する"
+	 nc:link="privacy_help.html#privacy:protectingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#p">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="proxies"
+         nc:name="プロキシ"
+	 nc:link="nav_help.html#proxies:settingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#proxies">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="proxies:setting"
+         nc:name="環境設定"
+	 nc:link="nav_help.html#proxies:settingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#q">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Quick_Launch"
+         nc:name="クイックラウンチ"
+	 nc:link="nav_help.html#Quick_Launch:usingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#Quick_Launch">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="Quick_Launch:using"
+         nc:name="使用する"
+	 nc:link="nav_help.html#Quick_Launch:usingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#s">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="search"
+         nc:name="検索"
+	 nc:link="nav_help.html#search:Advanced_modeIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#search">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="search:Advanced_mode"
+         nc:name="詳細モード"
+	 nc:link="nav_help.html#search:Advanced_modeIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#search">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="search:bookmarks"
+         nc:name="ブックマーク"
+	 nc:link="nav_help.html#search:bookmarksIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#search">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="search:setting_preferences"
+         nc:name="環境設定を指定する"
+	 nc:link="nav_help.html#search:setting_preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#search">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="search:using_the_Search_button"
+         nc:name="[検索]ボタンを使用する"
+	 nc:link="nav_help.html#search:using_the_Search_buttonIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#s">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="security"
+         nc:name="セキュリティ"
+	 nc:link="privsec_help.html#security:preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#security">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="security:preferences"
+         nc:name="環境設定"
+	 nc:link="privsec_help.html#security:preferencesIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#t">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="themes"
+         nc:name="テーマ"
+	 nc:link="customize_help.html#themes:changingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#themes">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="themes:changing"
+         nc:name="変更する"
+	 nc:link="customize_help.html#themes:changingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#t">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="toolbar"
+         nc:name="ツールバー"
+	 nc:link="customize_help.html#toolbar:hiding_a_toolbarIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#toolbar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="toolbar:hiding_a_toolbar"
+         nc:name="ツールバーを隠す"
+	 nc:link="customize_help.html#toolbar:hiding_a_toolbarIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#toolbar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="toolbar:navigation_toolbar"
+         nc:name="navigation ツールバー"
+	 nc:link="customize_help.html#toolbar:navigation_toolbarIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#toolbar">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="toolbar:personal_toolbar"
+         nc:name="パーソナルツールバー"
+	 nc:link="customize_help.html#toolbar:personal_toolbarIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="help-indexAZ.rdf#w">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="web_pages"
+         nc:name="Web ページ"
+	 nc:link="nav_help.html#web_pages:copyingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#web_pages">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="web_pages:copying"
+         nc:name="コピーする"
+	 nc:link="nav_help.html#web_pages:copyingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#web_pages">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="web_pages:customizing_fonts"
+         nc:name="フォントをカスタマイズする"
+	 nc:link="customize_help.html#web_pages:customizing_fontsIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#web_pages">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="web_pages:finding_related"
+         nc:name="関連する Web ページを検索する"
+	 nc:link="nav_help.html#web_pages:finding_relatedIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#web_pages">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="web_pages:finding_within"
+         nc:name="Web ページ内で検索する"
+	 nc:link="nav_help.html#web_pages:finding_withinIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#web_pages">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="web_pages:history"
+         nc:name="履歴"
+	 nc:link="nav_help.html#web_pages:historyIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#web_pages">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="web_pages:navigating"
+         nc:name="ナビゲートする"
+	 nc:link="nav_help.html#web_pages:navigatingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#web_pages">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="web_pages:searching"
+         nc:name="検索する"
+	 nc:link="nav_help.html#web_pages:searchingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#web_pages">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="web_pages:stopping"
+         nc:name="中止する"
+	 nc:link="nav_help.html#web_pages:stoppingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+<rdf:Description about="#web_pages">
+   <nc:subheadings>
+     <rdf:Seq><rdf:li>
+       <rdf:Description ID="web_pages:translating"
+         nc:name="翻訳する"
+	 nc:link="nav_help.html#web_pages:translatingIDX"/>
+     </rdf:li></rdf:Seq>
+   </nc:subheadings>
+</rdf:Description>
+
+</rdf:RDF>

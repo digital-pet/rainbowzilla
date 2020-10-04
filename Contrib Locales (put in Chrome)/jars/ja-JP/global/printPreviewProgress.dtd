@@ -1,0 +1,1 @@
+<!--LOCALIZATION NOTE printPreviewProgress.dtd Main UI for Print Preview Progress Dialog --><!ENTITY printWindow.title "印刷プレビュー"> <!ENTITY title   "タイトル:"> <!ENTITY spaces    "            "><!ENTITY preparing "準備中..."><!ENTITY progress "状況:">

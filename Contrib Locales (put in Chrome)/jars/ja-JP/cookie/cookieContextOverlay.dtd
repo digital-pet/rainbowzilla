@@ -1,0 +1,1 @@
+<!ENTITY blockImageCmd.label          "このサーバからの画像をブロック"><!ENTITY blockImageCmd.accesskey      "k"><!ENTITY unblockImageCmd.label        "このサーバからの画像を受け入れる"><!ENTITY unblockImageCmd.accesskey    "u">

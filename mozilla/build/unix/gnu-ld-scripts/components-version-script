@@ -1,0 +1,1 @@
+EXPORTED {   global:		NSGetFactory;		NSGetModule;		NSRegisterSelf;		NSUnregisterSelf;   local: *;};

@@ -1,0 +1,1 @@
+<!ENTITY viewLog.title "振り分けのログ"><!ENTITY viewLogInfo.text "振り分けのログは振り分け作業を記録するファイルです。有効にするには下のチェックボックスをチェックします。"><!ENTITY clearLog.label "ログを消去"><!ENTITY clearLog.accesskey "C"><!ENTITY enableLog.label "振り分けのログを有効にする"><!ENTITY enableLog.accesskey "E">

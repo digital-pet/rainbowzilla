@@ -1,0 +1,116 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+<title>プロファイルを管理する</title>
+
+<link rel="stylesheet" href="chrome://help/locale/content_style.css" type="text/css">
+<style type="text/css">
+p.comment {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.comment {
+    color: #20A040;
+    font-size: 80%;
+}
+</style>
+<!--
+	原文 URL : http://lxr.mozilla.org/mozilla/source/extensions/help/resources/locale/en-US/profiles_help.html
+	原文タイトル : Managing Profiles
+	和訳原文 URL :  http://www.mozilla.gr.jp/~syamagu/mozhelp/translations/profile_help.html
+
+	初版完了: 2002-04-03 20:20 by mal (mal@mozilla.gr.jp) Rev 1.2
+		this file translated mozilla 0.9.9 help files
+	更新草稿 : 2002-06-02 18:50 by pswf
+	更新草稿修正 : 2002-06-03 23:50 by pswf
+	更新 : 2002-07-13 山口 Rev:1.8
+	更新 : 2002-02-04 松葉 Rev:1.9
+-->
+</head>
+
+<body bgcolor="white">
+
+
+<a NAME="managing_profiles"></a>
+<a NAME="profiles:managingIDX"></a>
+<hr><h1>プロファイルを管理する</h1>
+
+<p>インターネットを自宅と職場で使う場合、ブックマーク、設定、アドレス帳、電子メールアカウント、Sidebar の設定などを、別々に利用したいと思うでしょう。同じように、家族が同じブラウザソフトを共有したいけれど、インターネットの個人情報は分けておきたくなるかもしれません。</p>
+
+<p>プロファイルマネージャは、異なったプロファイルを作成できるようにします。プロファイルには、ブックマーク、設定、電子メール設定などがそれぞれ入っています。ブラウザソフトを最初にインストールしたとき、標準のプロファイルが自動的に作成されます。追加のプロファイルを作成する場合、ブラウザの起動時にどのプロファイルを使うか選択することになります。</p>
+
+<table summary="list of headings" cellpadding=4 cellspacing=2 bgcolor="#cccccc" Width=324>
+<tr>
+<td class="inthissections">
+<p>このセクションの内容：</p>
+<p><a href="#creating_profiles">新しいプロファイルを作成する</a></p>
+<p><a href="#deleting_profiles">プロファイルを削除する、名前を変える</a></p>
+</td>
+</tr>
+</table>
+
+
+<p>&nbsp;</p>
+<a NAME="creating_profiles"></a>
+<a NAME="profiles:creatingIDX"></a>
+<h2>新しいプロファイルを作成する</h2>
+
+<p>プロファイルを作成するには：
+
+<ol>
+	<li>ブラウザを終了します。ブラウザソフトの Navigator、メール、その他のコンポーネントが実行中の間は、新しいプロファイルを作成することはできません。
+	<li>プロファイルマネージャを開きます：</li>
+	<ul>
+		<li>Windows： ［スタート］メニューをクリックして、［プログラム］を選択します。そして［Mozilla］を開き、次に［Profile Manager］をクリックします。<br>
+		<span class="comment">［訳注： インストーラでなく、zip 版で導入した場合は、スタートメニューをクリックして「ファイル名を指定して実行」を選択し、「（格納フォルダ名） \mozilla.exe -ProfileManager」と指定します］</span>
+		<li>Mac OS： Mozilla Folder を開き、中の Mozilla Profile Manager をダブルクリックします。
+		<li>Linux： コマンドラインで以下のように入力します： <tt> ./mozilla -profilemanager</tt>
+	</ul>
+	<li>［新しいプロファイルの作成］ をクリックします。プロファイルの説明を読んで ［次へ］ をクリックします。
+	<li>プロファイル名を入力します。あなたの本名や、&quot;学校&quot; のような、何のためにプロファイルに使うかに関連する名前といった、お好みの名前を入力してください。
+	<li>新しいプロファイルを標準の場所に保存することを受け入れるか、［フォルダを選択］ ボタンをクリックし、保存したい場所まで進んでください。
+	<li>言語パック（Language Pack）や地域ごとのコンテンツパック（Content Pack）がインストールされている場合、［地域の選択］ をクリックして、［言語／地域の選択］を設定します。
+	<li>［完了］ をクリックします。
+</ol>
+
+<p>再度プロファイルマネージャが画面に現れます。一覧に新しいプロファイルが追加され、ハイライトされています。
+
+
+<!--p>To set up your browser for the new profile, click Start Netscape 7.0. You'll be asked to register a screen name (if you already have one) for use with Netscape Webmail, Netscape Instant Messenger, and custom My Netscape page. If you don't have a screen name, click Register Now to get one. -->
+
+<!--p>If you don't want to register a screen name at this time, click Cancel, and the program will open. To register a screen name while Netscape is running, open the Help menu and choose Register Netscape.-->
+
+<!--p>As you begin using the new profile, you will be asked for additional information as you perform tasks that require it&mdash;for example, checking your email. -->
+
+
+<p>&nbsp;</p>
+<a NAME="deleting_profiles"></a>
+<a NAME="profiles:deletingIDX"></a>
+<a NAME="profiles:renamingIDX"></a>
+<h2>プロファイルを削除する、名前を変える</h2>
+
+<p>通常使用しないプロファイルを削除したいときがあります。既存のプロファイルを削除したり、名前を変更するには：
+
+<ol>
+	<li>ブラウザを終了します。ブラウザソフトの Navigator、メール、その他のコンポーネントが実行中の間は、新しいプロファイルを作成したり、名前を変更することはできません。
+
+	<li>プロファイルマネージャを開きます：</li>
+	<ul>
+		<li>Windows： ［スタート］メニューをクリックして、［プログラム］を選択します。そして［Mozilla］を開き、次に［Profile Manager］をクリックします。<br>
+		<span class="comment">［訳注： インストーラでなく、zip 版で導入した場合は、スタートメニューをクリックして「ファイル名を指定して実行」を選択し、「（格納フォルダ名） \mozilla.exe -ProfileManager」と指定します］</span>
+		<li>Mac OS： Mozilla Folder を開き、中の Mozilla Profile Manager をダブルクリックします。
+		<li>Linux： コマンドラインで以下のように入力します： <tt> ./mozilla -profile</tt>
+	</ul>
+	<li>プロファイルを削除するには、削除するプロファイル名を選択して、［プロファイルの削除］をクリックします。
+	<li>プロファイルの名前を変更するには、名前を変更するプロファイル名を選択して、［プロファイルの名前変更］をクリックします。後は指示に従います。
+</ol>
+
+<hr>
+
+<p><i>2002年 6月18日</i></p>
+
+<hr>
+<p>Copyright &copy; 1994-2002 Netscape Communications Corporation.</p>
+<p>Translated for Mozilla by mozilla-gumi &lt;http://mozilla.gr.jp&gt; participants.</p>
+</body>
+</html>
